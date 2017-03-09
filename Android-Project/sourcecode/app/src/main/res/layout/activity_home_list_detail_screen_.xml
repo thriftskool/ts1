@@ -1,0 +1,264 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              xmlns:fontawesometext="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:background="@color/color_white"
+    >
+    <include
+        layout="@layout/header"
+        />
+
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:orientation="vertical">
+
+              <!--  <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="210dp"
+                    android:id="@+id/HomelistDetailScreen_viewPagerFram">
+
+                    <android.support.v4.view.ViewPager
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/HomelistDetailScreen_viewPager"
+                        android:background="@drawable/lodingicon"
+                        />
+
+                    <com.thriftskool.thriftskool1.widgets.TextAwesome
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_gravity="right|top"
+                        android:textColor="@color/color_white"
+                        android:text="@string/fa_star_o"
+                        android:id="@+id/HomelistDetailScreen_favorite"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/starbg"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingBottom="2dp"
+                        android:paddingTop="2dp"
+                        />
+
+                </FrameLayout>
+-->
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="230dp"
+                    android:layout_weight="1"
+                    android:id="@+id/HomelistDetailScreen_viewPagerFram">
+
+                    <android.support.v4.view.ViewPager
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/HomelistDetailScreen_viewPager"
+                        android:background="@drawable/lodingicon"
+                        />
+
+                    <com.thriftskool.thriftskool1.widgets.TextAwesome
+                        android:layout_gravity="right|top"
+                        android:textColor="@color/color_white"
+                        android:text="@string/fa_star_o"
+                        android:id="@+id/HomelistDetailScreen_favorite"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/starbg"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingBottom="2dp"
+                        android:paddingTop="2dp"
+                        android:layout_margin="8dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"/>
+
+                </RelativeLayout>
+
+
+
+
+            <com.thriftskool.thriftskool1.widgets.TextViewMyriadProRegular
+                android:background="@color/color_titledetailcolor"
+                android:textSize="18sp"
+                android:id="@+id/HomelistDetailScreen_title"
+                android:padding="7dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color_white"
+                />
+
+
+            <LinearLayout
+                android:padding="7dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:background="@color/color_messagedetailcolor"
+                >
+                <com.thriftskool.thriftskool1.widgets.TextViewMyriadProRegular
+                    android:layout_weight="1"
+                    android:textSize="15sp"
+                    android:id="@+id/HomelistDetailScreen_expDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    />
+
+                <com.thriftskool.thriftskool1.widgets.TextViewMyriadProRegular
+                    android:gravity="right"
+                    android:layout_gravity="right"
+                    android:textSize="15sp"
+                    android:id="@+id/HomelistDetailScreen_expDay"
+                    android:layout_width="wrap_content"
+                    android:singleLine="true"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="100dp"
+                          android:orientation="vertical"
+              >
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fillViewport="true"
+                    >
+                    <LinearLayout android:layout_width="match_parent"
+                                  android:layout_height="wrap_content"
+                                  android:orientation="vertical">
+
+                        <com.thriftskool.thriftskool1.widgets.TextViewMyriadProRegular
+                            android:textSize="18sp"
+                            android:id="@+id/HomelistDetailScreen_description"
+                            android:padding="8dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"
+                            >
+                            <com.thriftskool.thriftskool1.widgets.TextViewMyriadProRegular
+                                android:visibility="gone"
+                                android:layout_marginLeft="10dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/HomelistDetailScreen_viewCode"
+                                android:textColor="@color/color_white"
+                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:text="@string/viewcode_createlistdetailscreen"
+                                android:background="@drawable/postsubmit"
+                                android:paddingTop="7dp"
+                                android:paddingBottom="7dp"
+                                android:paddingLeft="20dp"
+                                android:paddingRight="20dp"
+
+                                />
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </ScrollView>
+            </LinearLayout>
+
+                <LinearLayout android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:orientation="horizontal"
+                              android:gravity="top|center"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:background="@color/color_messagedetailcolor"
+                        android:layout_marginBottom="5dp"
+                        android:id="@+id/HomelistDetailScreen_mailcallLayOut"
+                        >
+
+                        <com.thriftskool.thriftskool1.widgets.TextAwesome
+                            android:layout_weight="1"
+                            android:textSize="15sp"
+                            android:id="@+id/HomelistDetailScreen_mail"
+                            android:text="@string/email_createlistdetailscreen"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="#3441bf"
+                            android:layout_gravity="center"
+                            android:padding="7dp"
+                            />
+
+                        <TextView
+                            android:layout_weight="1"
+                            android:padding="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                        <com.thriftskool.thriftskool1.widgets.TextAwesome
+                            android:layout_weight="1"
+                            android:textSize="17sp"
+                            android:padding="7dp"
+                            android:id="@+id/HomelistDetailScreen_profile"
+                            android:text="@string/profile_createlistdetailscreen"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:layout_gravity="center"/>
+
+                        <TextView
+                            android:visibility="gone"
+                            android:layout_weight="1"
+                            android:padding="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                        <com.thriftskool.thriftskool1.widgets.TextAwesome
+                            android:textColor="#ff5566"
+                            android:textSize="15sp"
+                            android:id="@+id/HomelistDetailScreen_call"
+                            android:text="@string/fa_phone"
+                            android:layout_width="wrap_content"
+                            android:padding="7dp"
+                            android:gravity="center"
+                            android:visibility="gone"
+                            android:layout_gravity="center"
+                            android:layout_height="wrap_content"/>
+
+                        <TextView
+                            android:layout_weight="1"
+                            android:padding="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                        <com.thriftskool.thriftskool1.widgets.TextAwesome
+                            android:textColor="#dc2a2a"
+                            android:textSize="15sp"
+                            android:id="@+id/HomelistDetailScreen_report"
+                            android:layout_width="wrap_content"
+                            android:padding="7dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+.fileinput-button input {
+  width:70px !important;
+  left: -5px !important;
+ 
+}
+.btn.fileinput-button{padding:2px 0 !important}
+.btn.fileinput-button span{padding:0 2px}

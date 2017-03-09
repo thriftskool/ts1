@@ -1,0 +1,77 @@
+input{ outline:none;}
+.popup-bg1{ background:url(../images/popup-border-bg.png) left top repeat; padding:5px;}
+.popup-bg-main1{ background:url(../images/popup-bg.gif) left top repeat-x #c62926; color:#363b3f;}
+
+.popup-bg-main .cireba-logo{ background:url(../images/cireba-red-images.png) -8px top no-repeat; width:192px; height:63px; display:block;}
+.white-bg{ background:#fff;}
+.popup-footer{background:url(../images/cireba-red-footer-mid.jpg) left bottom repeat-x;}
+.popup-footer a{ color:#878787;}
+.popup-footer a:hover{ color:#fff;}
+.popup-bg-main h2{font-size:22px; font-weight:bold; line-height:24px;}
+.popup-bg-main .text-name{ font-size:14px; font-weight:bold;}
+
+.input-box1 .input-left1{ background:url(../images/cireba-input-left1.png) left top no-repeat; padding:0 0 0 9px; height:41px;}
+.input-box1 .input-right1{ background:url(../images/cireba-input-right1.png) right top no-repeat; padding:4px 6px 0 0; height:37px;}
+.input{ font-size:14px; color:#7f7f7f; font-family:Arial, Helvetica, sans-serif; padding:8px 4px; background:#fff; border:none; font-style:italic;}
+.select-input{ font-size:14px; color:#7f7f7f; font-family:Arial, Helvetica, sans-serif; padding:7px 4px; background:#fff; border:none; font-style:italic;}
+.label-txt{ font-size:13px; font-weight:bold;}
+
+.popup-bg-main a{color:#FF0000;}
+.popup-bg-main a:hover{color:#000;}
+.popup-footer a{ color:#fff;}
+.popup-footer a:hover{ color:#999;}
+.input-con .input-left{ background:url(../images/cireba-input-left1.png) left top no-repeat; padding:0 0 0 9px; height:41px;}
+.input-con .input-right{ background:url(../images/cireba-input-right1.png) right top no-repeat; padding:4px 6px 0 0; height:37px;}
+.input-con .input{ font-size:14px; color:#7f7f7f; font-family:Arial, Helvetica, sans-serif; padding:8px 4px; background:#fff; border:none; font-style:italic;}
+.input-con .textarea{ font-size:14px; color:#7f7f7f; font-family:Arial, Helvetica, sans-serif; padding:8px 4px; height:75px; background:#fff; border:none; font-style:italic;}
+.contact-comment{cursor: pointer; display: block; position: relative;}
+.contact-comment span{z-index:0; float:left;font-weight: bold;}
+.contact-hint1{ display:none;}
+.contact-comment:hover .contact-hint1{z-index:99999; position:absolute;background-color: #D5ECFA;width: 230px; height:65px;padding: 10px;color:#0B336A;border: #95D0F2 2px solid;display: block; font-size:13px;  left:-230px; top:20px;}
+.ok-btn{ background:url(../images/cireba-red-images.png) -572px -776px no-repeat; width:40px; height:26px;}
+.ok-btn:hover{ background-position:-612px -776px;}
+
+
+.popup-boxlist{ background:#ffffff; width:100%; position:relative; border:1px #d9dada solid; right:1px;}
+.popup-boxlist .left-top{ background:url(../images/cireba-red-images.png) -768px top no-repeat; width:4px; height:4px; position:absolute; left:-1px; top:-1px;}
+.popup-boxlist .right-top{ background:url(../images/cireba-red-images.png) -773px top no-repeat; width:4px; height:4px; position:absolute; right:-1px; top:-1px;}
+.popup-boxlist .left-bottom{ background:url(../images/cireba-red-images.png) -768px -9px no-repeat; width:4px; height:4px; position:absolute; left:-1px; bottom:-1px;}
+.popup-boxlist .right-bottom{ background:url(../images/cireba-red-images.png) -773px -9px no-repeat; width:4px; height:4px; position:absolute; right:-1px; bottom:-1px;}
+.popup-boxlist h2{ color:#FC1E39; font-size:19px; font-weight:normal; margin:0;}
+.popup-boxlist h2 span{ color:#363B3F;}
+.popup-boxlist h3{ color:#FC1E39; font-size:16px; font-weight:bold;}
+
+.popup-boxlist .property{ background:url(../images/cireba-red-images.png) -419px -873px no-repeat; height:32px; width:32px;}
+.popup-boxlist .fav{ background:url(../images/cireba-red-images.png) -451px -873px no-repeat; height:32px; width:32px;}
+.popup-boxlist .savesearch{ background:url(../images/cireba-red-images.png) -419px -905px no-repeat; height:32px; width:32px;}
+.popup-boxlist .agent{ background:url(../images/cireba-red-images.png) -451px -905px no-repeat; height:32px; width:32px;}
+
+
+
+
+
+.comment-popup{ position:fixed; bottom:0; right:0;  z-index:99999;}
+.coment-top{ background:url(../images/coment-top.png) no-repeat; width:369px; height:4px; position:relative; z-index:9999;}
+.coment-cen{ background:url(../images/coment-bg-cen.png) repeat-y; width:369px; position:relative; z-index:9999;}
+.chat-popup-bg{ background:#3c4454; padding:3px 3px 1px 3px; z-index:99999; right:0; bottom:0;}
+.chat-popup-bg-main{ background:url(../images/chat-popup-bg.jpg) left top repeat-x #363b3f; color:#363b3f;}
+
+.chat-popup-bg-main .chead{ background:url(../images/chat-popup-bg.jpg)repeat-x; width:100%; height:25px; display:block; cursor:pointer;}
+.chat-popup-bg-main span{color:#fff; font-size:13px; font-weight:bold; margin-top:2px; display:block;}
+.chat-popup-bg-main .close{ background:url(../images/minus-btn.jpg) left top no-repeat; display:none; width:22px; height:21px; position:absolute; top:1px; right:1px;}
+.chat-popup-bg-main .close:hover{ background-position: left -21px;}
+.chat-popup-bg-main .white-bg{display:none;}
+.chat-popup-bg-main .popup-footer{display:none; height:10px; background:#3c4454;}
+.disb{display:block !important;}
+.disn{display:none !important;}
+.coment-ico{background:url(../images/coment-bbl.png) no-repeat left top; width:21px; height:19px; display:block;}
+.coment-bbl{background:url(../images/coment-bbl2.png) no-repeat left top; width:279px; height:50px; display:block; z-index:9999; cursor:pointer;}
+.coment-bbl h2{font-size:16px; font-weight:bold; margin:0; color:#fff;}
+.coment-bbl span{font-size:12px; color:#1C8DC3;}
+
+.chat-popup-bg-main .white-bg a{color:#1C8DC3; font-size:15px; font-weight:bold; text-decoration:none;}
+.chat-popup-bg-main .white-bg a:hover{color:#363B3F;}
+
+.post-btn{background:url(../images/post-btn.png) left top; width:69px; height:25px; cursor:pointer;border:none;}
+.post-btn:hover{background:url(../images/post-btn-hvr.png) left top;}
+

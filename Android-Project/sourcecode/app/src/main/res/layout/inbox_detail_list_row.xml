@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:paddingBottom="5dp"
+              android:weightSum="1"
+              android:background="@color/color_white"
+
+    >
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/item_composer_header"
+        android:layout_marginBottom="5dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:id="@+id/InBoxDetail_Row_User1"
+
+        >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight=".75"
+
+
+        >
+
+        <com.thriftskool.thriftskool1.widgets.TextViewMyriadProBold
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/InBoxDetail_Row_Name"
+            android:layout_weight="1"
+            android:gravity="left|center"
+            android:textSize="13sp"
+            android:textColor="@color/color_titledetailcolor"
+            android:textStyle="bold"
+            android:text="sdsd"
+
+            android:visibility="gone"
+            />
+
+        <com.thriftskool.thriftskool1.widgets.TextViewMyriadProRegular
+            android:background="@drawable/call_out_left"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/InBoxDetail_Row_Message"
+            android:layout_weight="1"
+            android:gravity="left|top"
+            android:textSize="15sp"
+            android:textColor="@color/color_titledetailcolor"
+            android:paddingLeft="20dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+
+            />
+
+        <com.thriftskool.thriftskool1.widgets.TextViewMyriadProRegular
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/InBoxDetail_Row_Date"
+            android:layout_weight="1"
+            android:gravity="right|center"
+            android:textSize="13sp"
+            android:textColor="@color/color_titledetailcolor"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="12dp"
+
+            />
+    </LinearLayout>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:gravity="right"
+        android:id="@+id/InBoxDetail_Row_User2"
+
+        >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight=".75"
+
+        >
+
+        <com.thriftskool.thriftskool1.widgets.TextViewMyriadProBold
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/InBoxDetail_Row_Name1"
+            android:layout_weight="1"
+            android:gravity="left|center"
+            android:textSize="13sp"
+            android:textColor="@color/color_titledetailcolor"
+            android:textStyle="bold"
+            android:text="sdsd"
+            android:visibility="gone"
+
+            />
+
+
+        <com.thriftskool.thriftskool1.widgets.TextViewMyriadProRegular
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/InBoxDetail_Row_Message1"
+            android:gravity="left|top"
+            android:textSize="15sp"
+            android:textColor="@color/color_white"
+            android:paddingLeft="10dp"
+            android:paddingRight="19dp"
+            android:paddingTop="10dp"
+            android:background="@drawable/call_out_right"
+            android:paddingBottom="10dp"
+
+            />
+
+
+        <com.thriftskool.thriftskool1.widgets.TextViewMyriadProRegular
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/InBoxDetail_Row_Date1"
+            android:layout_weight="1"
+            android:gravity="right|center"
+            android:textSize="13sp"
+            android:textColor="@color/color_titledetailcolor"
+            android:paddingBottom="2dp"
+            android:paddingRight="22dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="2dp"
+
+            />
+    </LinearLayout>
+</LinearLayout>
+
+</LinearLayout>

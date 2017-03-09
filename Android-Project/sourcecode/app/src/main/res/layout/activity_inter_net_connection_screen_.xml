@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:gravity="center_horizontal"
+              android:background="@color/color_greenheader"
+    >
+
+    <com.thriftskool.thriftskool1.widgets.TextViewMyriadProRegular
+        android:text="@string/internetconnection_alert"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:textColor="@color/color_white"
+        android:padding="10dp"
+        android:layout_height="wrap_content"/>
+
+
+    <com.thriftskool.thriftskool1.widgets.TextViewMyriadProBold
+        android:id="@+id/InternetConnectionScreen_tryAgain"
+        android:layout_marginTop="20dp"
+        android:text="Try Again"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:background="@drawable/login"
+        android:padding="10dp"
+        android:textColor="@color/color_white"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

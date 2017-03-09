@@ -1,0 +1,92 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                    android:layout_height="match_parent"
+              android:background="@color/color_bg"
+           >
+
+    <include
+
+        layout="@layout/header"
+        />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+       android:layout_margin="10dp"
+        >
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        >
+
+    <com.thriftskool.thriftskool1.widgets.EditTextMyriadProRegular
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ReplyMessageScreen_Massage"
+        android:layout_weight="1"
+        android:background="@drawable/post"
+        android:hint="@string/entermessage_contactusscreen"
+        android:gravity="top"
+        android:padding="10dp"
+        android:textSize="18sp"
+        android:imeOptions="actionDone"
+        android:textColor="@color/color_textcolor"
+        android:textColorHint="@color/color_hinttextcolor"
+        />
+
+
+        <com.thriftskool.thriftskool1.widgets.TextViewMyriadProRegular
+            android:id="@+id/ReplyMessageScreen_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/messagetext_contactusscreen"
+            android:textColor="@color/color_textcolor"
+            android:textSize="15sp"
+            android:padding="10dp"
+            android:visibility="gone"
+
+
+            />
+
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            >
+
+
+        <com.thriftskool.thriftskool1.widgets.TextViewMyriadProBold
+
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ReplyMessageScreen_send"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/postsubmit"
+            android:text="Send"
+            android:textColor="@color/color_white"
+            android:textStyle="bold"
+            android:textSize="18sp"
+
+            />
+</LinearLayout>
+
+
+    </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

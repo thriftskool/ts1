@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:background="@color/color_white"
+              android:id="@+id/CandidateListRow"
+    >
+    <include
+        layout="@layout/header"
+        />
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+        android:orientation="vertical"
+                  android:padding="15sp"
+        >
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="horizontal"
+
+            >
+
+            <!--  <RelativeLayout
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:padding="6dp"
+                  >
+
+
+                  < com.thriftskool.thriftskool1.widgets.CircularImageView
+                      android:layout_width="80dp"
+                      android:layout_height="80dp"
+                      android:id="@+id/CandidateRow_image"
+                      android:layout_gravity="center"
+                      android:scaleType="fitXY"
+                      android:background="@drawable/profilepic"
+                      />
+
+              </RelativeLayout>-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                >
+            <com.thriftskool.thriftskool1.widgets.CircularImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/OwnerRow_image"
+                android:layout_gravity="top|center"
+                android:scaleType="fitXY"
+                />
+
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginLeft="8dp"
+                >
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    >
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        >
+
+                        <com.thriftskool.thriftskool1.widgets.TextViewMyriadProBold
+                            android:textSize="17sp"
+                            android:id="@+id/Owner_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Name"
+                            android:textColor="@color/color_greenheader"
+                            android:singleLine="true"
+                            android:visibility="gone"
+                            />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_weight="1"
+                        android:layout_marginTop="12sp"
+                        >
+                        <com.thriftskool.thriftskool1.widgets.TextViewMyriadProRegular
+                            android:textSize="15sp"
+                            android:id="@+id/Owner_class"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Class"
+                            android:singleLine="true"
+                            android:visibility="gone"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:gravity="bottom"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="12sp"
+                        >
+                        <com.thriftskool.thriftskool1.widgets.TextViewMyriadProRegular
+                            android:textSize="15sp"
+                            android:id="@+id/Owner_UserName"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="left|top"
+                            android:singleLine="true"
+
+
+                            />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="horizontal"
+                      android:layout_marginTop="20dp"
+                      android:layout_gravity="center"
+                      android:gravity="center"
+            >
+
+            <com.thriftskool.thriftskool1.widgets.TextViewMyriadProBold
+                android:layout_marginTop="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Owner_post"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/postsubmit"
+                android:text="View All Posts"
+                android:textColor="@color/color_white"
+                android:textStyle="bold"
+                android:textSize="18sp"
+
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

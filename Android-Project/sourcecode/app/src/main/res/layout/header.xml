@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:background="@color/color_greenheader"
+              android:gravity="center"
+    >
+
+
+    <com.thriftskool.thriftskool1.widgets.TextAwesome
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Header_Back"
+        android:text="@string/fa_trash_o"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:padding="10dp"
+        android:textColor="@color/color_white"
+        android:visibility="invisible"
+        />
+
+    <RelativeLayout
+
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+           >
+
+    <com.thriftskool.thriftskool1.widgets.TextAwesome
+        android:layout_centerInParent="true"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Header_Title"
+
+        android:gravity="center"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:textColor="@color/color_white"
+        android:textAllCaps="true"
+
+        />
+
+
+        <com.thriftskool.thriftskool1.widgets.TextAwesome
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Header_filter"
+            android:text="@string/fa_sliders"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:padding="10dp"
+            android:textColor="@color/color_white"
+            android:layout_alignParentRight="true"
+            android:visibility="invisible"
+            />
+
+
+    </RelativeLayout>
+    <com.thriftskool.thriftskool1.widgets.TextAwesome
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Header_Delte"
+        android:text="@string/fa_trash_o"
+        android:gravity="center"
+        android:visibility="gone"
+        android:textSize="25sp"
+        android:padding="10dp"
+        android:textColor="@color/color_white"
+        />
+
+    <com.thriftskool.thriftskool1.widgets.TextAwesome
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Header_SelectAll"
+        android:text="@string/fa_check_square_o"
+        android:gravity="center"
+        android:visibility="gone"
+        android:textSize="25sp"
+        android:padding="10dp"
+        android:textColor="@color/color_white"
+        />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+
+    <com.thriftskool.thriftskool1.widgets.TextAwesome
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Header_Save"
+        android:text="@string/fa_bell_o"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:padding="10dp"
+        android:paddingTop="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="5dp"
+        android:textColor="@color/color_white"
+        />
+
+    <com.thriftskool.thriftskool1.widgets.BadgeView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignTop="@id/Header_Save"
+        android:layout_alignRight="@id/Header_Save"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        android:id="@+id/Headerbadge"
+      />
+
+</RelativeLayout>
+
+</LinearLayout>

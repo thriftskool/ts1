@@ -1,0 +1,376 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@color/color_bgcolor"
+              >
+
+    <include
+
+        layout="@layout/header"
+        />
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingBottom="10dp"
+
+
+        >
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/post"
+        android:padding="10dp"
+
+        >
+        <com.thriftskool.thriftskool1.widgets.TextViewMyriadProRegular
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/addphoto_postscreen"
+            android:id="@+id/PostScreen_AddPhotoText"
+            android:textColor="@color/color_hinttextcolor"
+            android:textColorHint="@color/color_hinttextcolor"
+
+
+            />
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <RelativeLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                >
+            <com.thriftskool.thriftskool1.widgets.SquareImageView
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:background="@drawable/photobg"
+
+                />
+
+                <com.thriftskool.thriftskool1.widgets.SquareImageView
+                    android:layout_centerInParent="true"
+                    android:layout_height="25dp"
+                    android:layout_width="25dp"
+                    android:background="@drawable/image1"
+
+                    />
+
+
+            <com.thriftskool.thriftskool1.widgets.SquareImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/PostScreen_AddPhoto1"
+                android:scaleType="fitXY"
+                android:padding="1dp"
+
+                />
+
+</RelativeLayout>
+            <RelativeLayout
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                >
+            <com.thriftskool.thriftskool1.widgets.SquareImageView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/photobg"
+
+                />
+
+                <com.thriftskool.thriftskool1.widgets.SquareImageView
+                    android:layout_centerInParent="true"
+                    android:layout_height="25dp"
+                    android:layout_width="25dp"
+                    android:background="@drawable/image2"
+
+                    />
+
+            <com.thriftskool.thriftskool1.widgets.SquareImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/PostScreen_AddPhoto2"
+                android:scaleType="fitXY"
+                android:padding="1dp"
+
+                />
+
+</RelativeLayout>
+            <RelativeLayout
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                >
+            <com.thriftskool.thriftskool1.widgets.SquareImageView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/photobg"
+
+                />
+                <com.thriftskool.thriftskool1.widgets.SquareImageView
+                    android:layout_centerInParent="true"
+                    android:layout_height="25dp"
+                    android:layout_width="25dp"
+                    android:background="@drawable/image3"
+
+                    />
+
+
+
+            <com.thriftskool.thriftskool1.widgets.SquareImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/PostScreen_AddPhoto3"
+                android:scaleType="fitXY"
+                android:padding="1dp"
+
+                />
+
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                >
+            <com.thriftskool.thriftskool1.widgets.SquareImageView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/photobg"
+
+                />
+
+
+                <com.thriftskool.thriftskool1.widgets.SquareImageView
+                    android:layout_centerInParent="true"
+                    android:layout_height="25dp"
+                    android:layout_width="25dp"
+                    android:background="@drawable/image4"
+
+                    />
+
+
+
+            <com.thriftskool.thriftskool1.widgets.SquareImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/PostScreen_AddPhoto4"
+                android:scaleType="fitXY"
+                android:padding="1dp"
+
+
+                />
+</RelativeLayout>
+
+</LinearLayout>
+
+        </LinearLayout>
+
+
+        <com.thriftskool.thriftskool1.widgets.EditTextMyriadProRegular
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/title1_postscreen"
+            android:id="@+id/PostScreen_Title"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:background="@drawable/post"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/color_textcolor"
+            android:textColorHint="@color/color_hinttextcolor"
+            android:singleLine="true"
+
+
+
+            />
+
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/post"
+        >
+
+        <com.thriftskool.thriftskool1.widgets.TextViewMyriadProRegular
+            android:layout_weight="1"
+            android:hint="@string/choosecategory_postscreen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/PostScreen_ChooseCategory"
+            android:padding="10dp"
+            android:textSize="15sp"
+            android:textColor="@color/color_textcolor"
+            android:textColorHint="@color/color_hinttextcolor"
+            android:singleLine="true"
+
+
+            />
+
+        <com.thriftskool.thriftskool1.widgets.TextAwesome
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fa_angle_right"
+           android:layout_marginRight="10dp"
+            />
+</LinearLayout>
+
+        <com.thriftskool.thriftskool1.widgets.EditTextMyriadProRegular
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/description_postscreen"
+            android:id="@+id/PostScreen_Description"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:background="@drawable/post"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/color_textcolor"
+            android:textColorHint="@color/color_hinttextcolor"
+
+
+            />
+
+
+
+
+        <com.thriftskool.thriftskool1.widgets.EditTextMyriadProRegular
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/price_postscreen"
+            android:id="@+id/PostScreen_Price"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:background="@drawable/post"
+            android:layout_marginTop="10dp"
+            android:inputType="numberDecimal"
+            android:textColor="@color/color_textcolor"
+            android:textColorHint="@color/color_hinttextcolor"
+            android:singleLine="true"
+
+
+
+
+            />
+
+
+        <com.thriftskool.thriftskool1.widgets.TextViewMyriadProRegular
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/expirydate_postscreen"
+            android:id="@+id/PostScreen_ExpiryDate"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:background="@drawable/post"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/color_textcolor"
+            android:textColorHint="@color/color_hinttextcolor"
+            android:singleLine="true"
+
+            />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="10dp"
+   >
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+    <CheckBox
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/PostScreen_PrivacyPolicy"
+            android:text="@string/privacypolicy_postscreen"
+            android:paddingLeft="5dp"
+            android:gravity="top"
+            android:textColor="@color/color_textcolor"
+            android:button="@drawable/post_checkbox"
+            android:textSize="13sp"
+            android:visibility="gone"
+            />
+        <com.thriftskool.thriftskool1.widgets.TextViewMyriadProRegular
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_textcolor"
+            android:textSize="13sp"
+            android:text="@string/privacypolicy1_postscreen"
+             android:visibility="visible"
+            />
+
+</LinearLayout>
+    <com.thriftskool.thriftskool1.widgets.TextViewMyriadProBold
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/PostScreen_PostSubmit"
+        android:textColor="@color/color_white"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:text="@string/submit_postscreen"
+        android:background="@drawable/postsubmit"
+        android:paddingTop="7dp"
+        android:paddingBottom="7dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+
+        />
+
+</LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>
+
+
+</LinearLayout>

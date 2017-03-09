@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@android:color/transparent"
+              android:orientation="vertical" >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/username"
+        android:orientation="vertical"
+
+        android:layout_weight="1" >
+
+        <com.thriftskool.thriftskool1.widgets.TextViewMyriadProBold
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:text="Change Status"
+            android:textColor="@color/color_textcolor"
+
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/cusion_popup_Titel"
+            android:background="@drawable/seprater"
+            android:text="Select Cuisine" />
+
+
+            <com.thriftskool.thriftskool1.widgets.TextViewMyriadProRegular
+                android:id="@+id/ChangeStatusPopup_expired"
+                android:layout_width="match_parent"
+                android:visibility="gone"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textSize="15sp"
+                android:text="@string/expired_changestatuspopup"
+                android:layout_weight="1"
+                android:textColor="@color/color_textcolor"
+
+                />
+
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/cusion_popup_Titel"
+            android:background="@drawable/seprater"
+            android:text="Select Cuisine" />
+
+
+
+            <com.thriftskool.thriftskool1.widgets.TextViewMyriadProRegular
+                android:id="@+id/ChangeStatusPopup_close"
+                android:layout_width="match_parent"
+                android:visibility="gone"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textSize="15sp"
+                android:text="@string/close_changestatuspopup"
+                android:layout_weight="1"
+                android:textColor="@color/color_textcolor"
+
+                />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/cusion_popup_Titel"
+            android:background="@drawable/seprater"
+            android:text="Select Cuisine" />
+
+
+
+
+            <com.thriftskool.thriftskool1.widgets.TextViewMyriadProRegular
+                android:id="@+id/ChangeStatusPopup_delete"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textSize="15sp"
+                android:text="@string/delete_changestatuspopup"
+                android:layout_weight="1"
+                android:textColor="@color/color_textcolor"
+
+                />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/cusion_popup_Titel"
+            android:background="@drawable/seprater"
+            android:text="Select Cuisine" />
+
+
+
+    <com.thriftskool.thriftskool1.widgets.TextViewMyriadProBold
+        android:id="@+id/ChangeStatusPopup_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/cancelpopup"
+        android:gravity="center"
+        android:text="Cancel"
+        android:padding="10dp"
+        android:textColor="@color/color_white"
+        android:textStyle="bold"
+
+        />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

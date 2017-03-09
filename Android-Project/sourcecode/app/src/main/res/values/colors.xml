@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="color_white">#ffffff</color>
+    <color name="color_black">#000000</color>
+
+    <color name="black">#00000000</color>
+
+    <color name="color_lightgray">#E6E6E6</color>
+    <color name="color_bg">#E6E6E6</color>
+    <color name="color_titledetailcolor">#656565</color>
+    <color name="color_messagedetailcolor">#e6e7e8</color>
+    <color name="color_textcolor">#545353</color>
+    <color name="color_hinttextcolor">#a7a9ac</color>
+
+
+
+
+    <color name="color_bgcolor">#EDEDED</color>
+
+
+
+
+
+
+    <color name="color_greenheader">#57B65B</color>
+
+<!-- Profile Color Code-->
+    <color name="profile_mypost">#E04241</color>
+    <color name="profile_watchlist">#177986</color>
+    <color name="profile_message">#F4A526</color>
+    <color name="profile_editprofile">#45C3E9</color>
+    <color name="profile_changepassword">#860A3E</color>
+    <color name="profile_signout">#164FC1</color>
+    <color name="profile_contactappadmin">#0D9316</color>
+
+
+    <!--User guride -->
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#98C988</color>
+    <color name="dot_dark_screen2">#98C988</color>
+    <color name="dot_dark_screen3">#98C988</color>
+    <color name="dot_dark_screen4">#98C988</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#ffffff</color>
+    <color name="dot_light_screen2">#ffffff</color>
+    <color name="dot_light_screen3">#ffffff</color>
+    <color name="dot_light_screen4">#ffffff</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen4</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+    </array>
+
+</resources>

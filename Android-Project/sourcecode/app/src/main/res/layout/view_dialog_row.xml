@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:id="@+id/ll_popup"
+              android:layout_height="match_parent"
+              android:orientation="horizontal"
+              android:gravity="center"
+    >
+
+
+    <com.thriftskool.thriftskool1.widgets.SquareImageView
+        android:id="@+id/fullImg"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        />
+
+</LinearLayout>

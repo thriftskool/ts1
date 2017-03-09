@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.thriftskool.thriftskool1"
+    android:versionCode="4"
+    android:versionName="1.0.4" >
+>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- <uses-permission a/finish();ndroid:name="android.permission.ACCESS_FINE_LOCATION"/> -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!--<permission-->
+        <!--android:name="com.thriftskool.thriftskool1.permission.C2D_MESSAGE"-->
+        <!--android:protectionLevel="signature" />-->
+
+    <uses-permission android:name="com.thriftskool.thriftskool1.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <permission
+        android:name="com.thriftskool.thriftskool1.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.thriftskool.thriftskool1.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <application
+        android:name=".AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/app_icon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".SpleshScreen_Activity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" >
+         <!--   <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>-->
+        </activity>
+
+        <activity
+            android:name=".User_guide.WelcomeActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" >
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".login.LoginScreen_Activity"
+            android:label="@string/title_activity_login_screen_"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        <activity
+            android:name=".login_signup.LoginSignupScreen_Activity"
+            android:label="@string/title_activity_login_signup_screen_"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name=".signup.SignupScreen_Activity"
+            android:label="@string/title_activity_signup_screen_"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name=".home_tab.HomeTabScreen_Activity"
+            android:label="@string/title_activity_home_screen_"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".home.HomeScreen_Activity"
+            android:label="@string/title_activity_home_screen_"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".home_list.Home_ListScreen_Activity"
+            android:label="@string/title_activity_home__list_screen_"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".home_list.Home_List_Tab"
+            android:label="@string/title_activity_home__list__tab"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".home_list_detail.HomeListDetail_Tab_Activity"
+            android:label="@string/title_activity_home_list_detail__tab_"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".home_list_detail.HomeListDetailScreen_Activity"
+            android:label="@string/title_activity_home_list_detail_screen_"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".campus_buzz_list.CampusBuzzListScreen_Activity"
+            android:label="@string/title_activity_campus_buzz_list_screen_"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".campus_deal_list.CampusDealListScreen_Activity"
+            android:label="@string/title_activity_campus_buzz_list_screen_"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".campus_deal_detail.CampusDealDetail_Tab_Activity"
+            android:label="@string/title_activity_campus_buzz_list_screen_"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".post.PostScreen_Activity"
+            android:label="@string/title_activity_post_screen_"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".university.UnivarsityScreen_Activity"
+            android:label="@string/title_activity_univarsity_screen_"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".category.CategoryScreen_Activity"
+            android:label="@string/title_activity_univarsity_screen_"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".profile.ProfileScreen_Activity"
+            android:label="@string/title_activity_profile_screen_"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".mypost.MyPostList_Tab_Activity"
+            android:label="@string/title_activity_profile_screen_"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".mypost.MyPostListScreen_Activity"
+            android:label="@string/title_activity_profile_screen_"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".my_post_list_detail.MyPostListDetail_Tab_Activity"
+            android:label="@string/title_activity_profile_screen_"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".my_post_list_detail.MyPostListDetailScreen_Activity"
+            android:label="@string/title_activity_profile_screen_"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".watch_list.WatchList_Tab_Activity"
+            android:label="@string/title_activity_profile_screen_"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".watch_list.WatchListScreen_Activity"
+            android:label="@string/title_activity_profile_screen_"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".changepassword.ChangePasswordScreen_Activity"
+            android:label="@string/title_activity_change_password_screen_"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateAlwaysVisible" >
+        </activity>
+        <activity
+            android:name=".changepassword.ChangePassword_Tab_Activity"
+            android:label="@string/title_activity_change_password_screen_"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".edit_profile.EditProfileScreen_Activity"
+            android:label="@string/title_activity_edit_profile_screen_"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".edit_profile.EditProfile_Tab_Activity"
+            android:label="@string/title_activity_edit_profile_screen_"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".edit_post.EditPostScreen_Activity"
+            android:label="@string/title_activity_edit_post_screen_"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+
+        <activity
+            android:name=".replay_massage.ReplyMessageScreen_Activity"
+            android:label="@string/title_activity_reply_message_screen_"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".replay_massage.ReplyMessage_Tab_Activity"
+            android:label="@string/title_activity_reply_message_screen_"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".inbox.InBoxListScreen_Activity"
+            android:label="@string/title_activity_in_boc_list_screen_"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".inbox.InBox_Tab_Activity"
+            android:label="@string/title_activity_in_boc_list_screen_"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".inbox_detail.InBoxDetailScreen_Activity"
+            android:label="@string/title_activity_in_box_detail_screen_"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".inbox_detail.InBoxDetail_Tab_Activity"
+            android:label="@string/title_activity_in_box_detail_screen_"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".contactus.ContactUs_Tab_Activity"
+            android:label="@string/title_activity_in_box_detail_screen_"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".contactus.ContactUsScreen_Activity"
+            android:label="@string/title_activity_in_box_detail_screen_"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".create_buzz.CreateBuzz_Tab_Activity"
+            android:label="@string/title_activity_in_box_detail_screen_"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".create_buzz.CreateBuzzScreen_Activity"
+            android:label="@string/title_activity_create_buzz_screen_"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".profile.SignInScreen_Activity"
+            android:label="@string/title_activity_create_buzz_screen_"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".campus_buzz_details.CampusBuzzDetailsTab_Activity"
+            android:label="@string/title_activity_create_buzz_screen_"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".campus_buzz_details.CampusBuzzDetailsScreen_Activity"
+            android:label="@string/title_activity_create_buzz_screen_"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".campus_deal_detail.CampusDealDetailScreen_Activity"
+            android:label="@string/title_activity_create_buzz_screen_"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".edit_post.EditPost_Tab_Activity"
+            android:label="@string/title_activity_create_buzz_screen_"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".watchlist_detail.WatchListDetailScreen_Tab_Activity"
+            android:label="@string/title_activity_create_buzz_screen_"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".watchlist_detail.WatchListDetailScreen_Activity"
+            android:label="@string/title_activity_create_buzz_screen_"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".full_Image.FullImageScreen_Activity"
+            android:label="@string/title_activity_full_image_screen_"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".internet_connection.InterNetConnectionScreen_Activity"
+            android:label="@string/title_activity_inter_net_connection_screen_"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".create_new_university.CreaneNewUniversityScreen_Activity"
+            android:label="@string/title_activity_creane_new_university_screen_"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".search_category.SearchCategory_Tab_Activity"
+            android:label="@string/title_activity_creane_new_university_screen_"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".search_category.SearchCategoryScreen_Activity"
+            android:label="@string/title_activity_creane_new_university_screen_"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".edit_profile.EditProfileUniversityScreen_Activity"
+            android:label="@string/title_activity_creane_new_university_screen_"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".notofication_list.NotificationListScreen_Activity"
+            android:label="@string/title_activity_creane_new_university_screen_"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".contact_aap_admin.ContactAppAdmin_Tab_Activity"
+            android:label="@string/title_activity_creane_new_university_screen_"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".contact_aap_admin.ContactAppAdminScreen_Activity"
+            android:label="@string/title_activity_creane_new_university_screen_"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".searchresult_detail.SearchResultDetail_Tab_Activity"
+            android:label="@string/title_activity_creane_new_university_screen_"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".searchresult_detail.SearchResultDetailScreen_Activity"
+            android:label="@string/title_activity_creane_new_university_screen_"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".notification_detail.NotificationPostBuzzDetailScreen_Activity"
+            android:label="@string/title_activity_creane_new_university_screen_"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".notification_detail.NotificationMessageDetailScreen_Activity"
+            android:label="@string/title_activity_creane_new_university_screen_"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".reply_messag_detail.ReplyMessageDetail_Tab_Activity"
+            android:label="@string/title_activity_creane_new_university_screen_"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".reply_messag_detail.ReplyMessageDetailScreen_Activity"
+            android:label="@string/title_activity_creane_new_university_screen_"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".search_edit_post.SearchEditPost_Tab_Activity"
+            android:label="@string/title_activity_creane_new_university_screen_"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".search_edit_post.SearchEditPostScreen_Activity"
+            android:label="@string/title_activity_creane_new_university_screen_"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".terms_and_condition.TermsAndConditionScreen_Activity"
+            android:label="@string/title_activity_creane_new_university_screen_"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".inbox_post_detail.InBoxPostDetail_Tab_Activity"
+            android:label="@string/title_activity_creane_new_university_screen_"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".inbox_post_detail.InBoxPostDetailScreen_Activity"
+            android:label="@string/title_activity_creane_new_university_screen_"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".edit_buzz.EditBuzzScreen_Activity"
+            android:label="@string/title_activity_edit_buzz_screen_"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".edit_buzz.EditBuzz_Tab_Activity"
+            android:label="@string/title_activity_edit_buzz_screen_"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".search_edit_buzz.SearchResultEditBuzz_Tab_Activity"
+            android:label="@string/title_activity_edit_buzz_screen_"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".search_edit_buzz.SearchResultEditBuzzScreen_Activity"
+            android:label="@string/title_activity_edit_buzz_screen_"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".home.UserGuideScreen_Activity"
+            android:label=""
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+
+        <receiver
+            android:name=".gsm_meassge.GCMReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            -
+            <!-- Receive the actual message -->
+            -
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="com.thriftskool.thriftskool1" />
+            </intent-filter>
+            -
+            <!-- Receive the registration id -->
+            -
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="com.thriftskool.thriftskool1" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name=".gsm_meassge.MyIntentService" />
+
+        <activity
+            android:name=".privacy_policy.PrivacyPolicyScreen_Activity"
+            android:label="@string/title_activity_privacy_policy_screen_" >
+        </activity>
+        <activity
+            android:name=".MostRecentPost.MostRecentPost_Tab_Activity"
+            android:label="@string/title_activity_most_recent_post__tab_" >
+        </activity>
+        <activity
+            android:name=".MostRecentPost.MostRecentPost_Activity"
+            android:label="@string/title_activity_most_recent_post_" >
+        </activity>
+        <activity
+            android:name=".view_profile.ViewProfileScreen_Activity"
+            android:label="@string/title_activity_view_profile_screen_" >
+        </activity>
+        <activity
+            android:name=".view_profile.OwnerPostScreen_Activity"
+            android:label="@string/title_activity_owner_post_screen_" >
+        </activity>
+
+    </application>
+
+</manifest>

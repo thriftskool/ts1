@@ -1,0 +1,81 @@
+/* 
+  Localizable.strings
+  Thriftskool
+
+  Created by Asha on 12/09/15.
+  Copyright (c) 2015 Etilox. All rights reserved.
+*/
+
+//Toss Messages
+"Blank_Title" = "Please enter title.";
+"Blank_choose_category" = "Please select one post category.";
+"Blank_Expiry_date" = "Please enter expiry date.";
+"Blank_privacy_policy_check_box" = "Please accept privacy policy.";
+"Blank_Select_university" = "Please select your university.";
+"Blank_email_address" = "Please enter your email address.";
+"Blank_username" = "Please enter your username.";
+"Blank_search_box" = "Please enter search keyword.";
+"blank_old_password" = "Please enter old password.";
+"Blank_New_password" = "Please enter new password.";
+"Blank_confirm_password" = "Please enter confirm password.";
+"Wrong_old_password" = "Please enter valid old password.";
+"Blank_password" = "Please enter password.";
+"New_and_confirm_password_mismatch" = "New password and confirm password should be the same.";
+"Blank_message_box" = "Please enter message text.";
+"Blank_university_name" = "Please enter your university name.";
+"Blank_University_Contact_email" = "Please enter university email address.";
+"Valied_email_address" = "Please enter valied email address.";
+"university_not_found_send" = "Thank you for contacting us, we will get back to you shortly.";
+"sign-in_wrong_parameters" = "Please enter valid username and password.";
+"sing-in_pending_verification" = "Please verify your email address to access your account.";
+"Successful_registration" = "Your account has been created. Your may have received account verification link on your email.";
+"Duplicate_email_for_registration" = "You have already registered with this email address. Please verify it to access your account.";
+"Duplicate_username_for_registration" = "Please use different username for registration.";
+"Blank_my_notification_list" = "You have no notifications at this time.";
+
+
+////neha
+"Blank_Description"= "Please enter description.";
+"Blank_Price" = "Please enter price";
+
+////
+
+//Button Click Event
+"Report_button_click" = "Your feedback has been recorded.";
+"Favorite_button_click_add" = "Post has been added to your watch list.";
+"Favorite_button_click_remove" = "Post has been removed from your watch list.";
+"My_post_change_status" = "Your post status has been changed.";
+"My_buzz_change_status" = "Your buzz status has been changed.";
+"Edit_post" = "Post content has been updated.";
+"Edit_buzz" = "Buzz content has been updated.";
+"Crete_post" = "New post has been created.";
+"Create_buzz" = "New buzz has been created.";
+"Message_send" = "Your message has been sent.";
+"Contact_send" = "Thank you for contacting us, we will get back to you shortly.";
+"Edit_profile" = "Your profile has been updated.";
+"change_password" = "Your password has been updated.";
+
+
+//Blank List
+"Blank_post_list" = "Selected category do not have any post for your university.";
+"Blank_my_post_list" = "You have not created any post or buzz for your university.";
+"Blank_deal_list" = "There is no deal available for your university.";
+"Blank_buzz_list" = "There is no buzz available for your university.";
+"Blank_watch_list" = "Your watch list is blank.";
+"Blank_my_message_list" = "Your message list is blank.";
+"Blank_search_result_list" = "There is no post available matching to your search keyword.";
+"Internet_connect_unavailable" = "Your device is not connected with Internet. Please check your device Internet settings.";
+"Blank_category_list" = "Selected category does not have any posts yet.";
+"Blank_recentlyAdded_list" = "Your university does not have any posts yet.";
+
+//Screen Title
+"Messages"="MY MESSAGES";
+"Notifications"="NOTIFICATIONS";
+
+//Notification
+"NewMsg"="You have new message from %@";
+"blockExpired"="Your %@ %@ has been expired";
+"block"="Your %@ %@ has been blocked";
+
+
+

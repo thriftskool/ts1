@@ -1,0 +1,31 @@
+//
+//  PrefixHeader.pch
+//  Thriftskool
+//
+//  Created by Asha on 18/08/15.
+//  Copyright (c) 2015 Etilox. All rights reserved.
+//
+
+#ifndef Thriftskool_PrefixHeader_pch
+#define Thriftskool_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "GlobalMethod.h"
+#import "ConnectionServer.h"
+#import "Header.h"
+#import "NSString+SBJSON.h"
+#import "NSString+FontAwesome.h"
+#import "UIView+Toast.h"
+#import "AppDelegate.h"
+#import "MBProgressHUD.h"
+#import "LazyLoadingImage.h"
+#import "CustomActionSheet.h"
+#import "MessagesViewController.h"
+#import "UIBarButtonItem+Badge.h"
+#import <SplunkMint/SplunkMint.h>
+
+
+
+#endif

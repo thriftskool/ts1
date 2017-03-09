@@ -1,0 +1,338 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:id="@+id/EditProfileScreen_PerentLayout"
+
+    >
+<include
+    layout="@layout/header"
+    />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:gravity="center_horizontal"
+        >
+        <com.thriftskool.thriftskool1.widgets.CircularImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/OwnderProfile_image"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/profilepic"
+            android:layout_marginBottom="8dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:padding="10dp"
+            android:background="@drawable/post"
+            android:id="@+id/EditProfileScreen_UniversityLayout"
+            >
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <com.thriftskool.thriftskool1.widgets.TextViewMyriadProSemiBold
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/university_editprofilescreen"
+                    android:textSize="18sp"
+
+                    />
+
+                <com.thriftskool.thriftskool1.widgets.TextViewMyriadProRegular
+
+                    android:id="@+id/EditProfileScreen_University"
+                    android:layout_marginTop="3dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:visibility="gone"
+                    android:inputType="text"
+
+
+
+                    />
+
+            </LinearLayout>
+
+            <com.thriftskool.thriftskool1.widgets.TextAwesome
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fa_angle_right"
+
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:background="@drawable/post"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/EditProfileScreen_EmailAddressMainLayout"
+            >
+            <LinearLayout
+            android:background="@drawable/post"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/EditProfileScreen_EmailAddressLayout"
+            >
+
+            <com.thriftskool.thriftskool1.widgets.TextViewMyriadProSemiBold
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/email_editprofilescreen"
+                android:textSize="18sp"
+                android:inputType="text"
+
+                />
+
+            <com.thriftskool.thriftskool1.widgets.TextViewMyriadProRegular
+
+                android:background="@android:color/transparent"
+                android:id="@+id/EditProfileScreen_EmailAddresstext"
+                android:layout_marginTop="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:visibility="gone"
+                android:singleLine="true"
+
+                />
+
+                </LinearLayout>
+
+            <com.thriftskool.thriftskool1.widgets.EditTextMyriadProRegular
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:id="@+id/EditProfileScreen_EmailAddress"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:singleLine="true"
+                android:textSize="18sp"
+                android:background="@drawable/username"
+                android:visibility="gone"
+                >
+
+                <requestFocus />
+            </com.thriftskool.thriftskool1.widgets.EditTextMyriadProRegular>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@drawable/post"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/EditProfileScreen_NameMainLayout"
+            >
+            <LinearLayout
+                android:background="@drawable/post"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/EditProfileScreen_NameLayout"
+                >
+
+                <com.thriftskool.thriftskool1.widgets.TextViewMyriadProSemiBold
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/name_editprofilescreen"
+                    android:textSize="18sp"
+                    android:inputType="text"
+                    android:id="@+id/tv_name"
+
+                    />
+
+                <com.thriftskool.thriftskool1.widgets.TextViewMyriadProRegular
+
+                    android:background="@android:color/transparent"
+                    android:id="@+id/EditProfileScreen_Nametext"
+                    android:layout_marginTop="3dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:visibility="gone"
+                    android:singleLine="true"
+
+                    />
+
+            </LinearLayout>
+
+            <com.thriftskool.thriftskool1.widgets.EditTextMyriadProRegular
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:id="@+id/EditProfileScreen_Name"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:singleLine="true"
+                android:textSize="18sp"
+                android:background="@drawable/username"
+                android:visibility="gone"
+                >
+
+                <requestFocus />
+            </com.thriftskool.thriftskool1.widgets.EditTextMyriadProRegular>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@drawable/post"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:id="@+id/EditProfileScreen_ClassMainLayout"
+            >
+
+            <LinearLayout
+                android:background="@drawable/post"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <com.thriftskool.thriftskool1.widgets.TextViewMyriadProSemiBold
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/class_editprofilescreen"
+                    android:textSize="18sp"
+                    android:inputType="text"
+
+                    />
+                <com.thriftskool.thriftskool1.widgets.TextViewMyriadProRegular
+
+                    android:background="@android:color/transparent"
+                    android:id="@+id/spiner_name"
+                    android:layout_marginTop="3dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    android:singleLine="true"
+
+                    />
+            </LinearLayout>
+
+                <Spinner
+                    android:id="@+id/EditprofileScreen_spiner"
+                    android:layout_width="match_parent"
+                    android:layout_height="36dp"
+                    android:background="@drawable/username"
+                    android:textSize="10sp"
+                    android:textColor="@color/color_textcolor"
+                    android:textColorHint="@color/color_hinttextcolor"
+                    android:visibility="gone"
+                    />
+        </LinearLayout>
+
+
+
+         <LinearLayout
+            android:background="@drawable/post"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/EditProfileScreen_UserNameMainLayout"
+            >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/EditProfileScreen_UserNameLayout"
+            >
+
+            <com.thriftskool.thriftskool1.widgets.TextViewMyriadProSemiBold
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/username_editprofilescreen"
+                android:textSize="18sp"
+
+                />
+
+            <com.thriftskool.thriftskool1.widgets.TextViewMyriadProRegular
+
+                android:background="@android:color/transparent"
+                android:id="@+id/EditProfileScreen_UserNameText"
+                android:layout_marginTop="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:visibility="gone"
+                android:singleLine="true"
+
+                />
+        </LinearLayout>
+
+            <com.thriftskool.thriftskool1.widgets.EditTextMyriadProRegular
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:id="@+id/EditProfileScreen_UserName"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:singleLine="true"
+                android:textSize="18sp"
+                android:background="@drawable/username"
+                android:visibility="gone"
+
+                >
+
+                <requestFocus />
+            </com.thriftskool.thriftskool1.widgets.EditTextMyriadProRegular>
+
+        </LinearLayout>
+
+
+        <com.thriftskool.thriftskool1.widgets.TextViewMyriadProBold
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/EditProfileScreen_Submit"
+            android:textColor="@color/color_white"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:text="Save"
+            android:background="@drawable/postsubmit"
+            android:paddingTop="7dp"
+            android:paddingBottom="7dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+
+            />
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

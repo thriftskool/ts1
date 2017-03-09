@@ -1,0 +1,105 @@
+[08-Nov-2015 00:00:11] PHP Fatal error:  Using $this when not in object context in /home3/thriftt1/public_html/mobileapps/thriftskool/gcm_send.php on line 216
+[09-Nov-2015 00:00:08] PHP Fatal error:  Using $this when not in object context in /home3/thriftt1/public_html/mobileapps/thriftskool/gcm_send.php on line 216
+[10-Nov-2015 00:00:09] PHP Fatal error:  Using $this when not in object context in /home3/thriftt1/public_html/mobileapps/thriftskool/gcm_send.php on line 216
+[11-Nov-2015 00:00:07] PHP Fatal error:  Using $this when not in object context in /home3/thriftt1/public_html/mobileapps/thriftskool/gcm_send.php on line 216
+[12-Nov-2015 00:00:12] PHP Fatal error:  Using $this when not in object context in /home3/thriftt1/public_html/mobileapps/thriftskool/gcm_send.php on line 216
+[13-Nov-2015 00:00:19] PHP Fatal error:  Using $this when not in object context in /home3/thriftt1/public_html/mobileapps/thriftskool/gcm_send.php on line 216
+[14-Nov-2015 00:00:06] PHP Fatal error:  Using $this when not in object context in /home3/thriftt1/public_html/mobileapps/thriftskool/gcm_send.php on line 216
+[15-Nov-2015 00:00:09] PHP Fatal error:  Using $this when not in object context in /home3/thriftt1/public_html/mobileapps/thriftskool/gcm_send.php on line 216
+[16-Nov-2015 00:00:04] PHP Fatal error:  Using $this when not in object context in /home3/thriftt1/public_html/mobileapps/thriftskool/gcm_send.php on line 216
+[17-Nov-2015 00:02:26] PHP Fatal error:  Using $this when not in object context in /home3/thriftt1/public_html/mobileapps/thriftskool/gcm_send.php on line 216
+[18-Nov-2015 00:00:06] PHP Fatal error:  Using $this when not in object context in /home3/thriftt1/public_html/mobileapps/thriftskool/gcm_send.php on line 216
+[19-Nov-2015 00:00:08] PHP Fatal error:  Using $this when not in object context in /home3/thriftt1/public_html/mobileapps/thriftskool/gcm_send.php on line 216
+[20-Nov-2015 00:00:07] PHP Fatal error:  Using $this when not in object context in /home3/thriftt1/public_html/mobileapps/thriftskool/gcm_send.php on line 216
+[21-Nov-2015 00:00:08] PHP Fatal error:  Using $this when not in object context in /home3/thriftt1/public_html/mobileapps/thriftskool/gcm_send.php on line 216
+[22-Nov-2015 00:00:05] PHP Fatal error:  Using $this when not in object context in /home3/thriftt1/public_html/mobileapps/thriftskool/gcm_send.php on line 216
+[23-Nov-2015 00:00:06] PHP Fatal error:  Using $this when not in object context in /home3/thriftt1/public_html/mobileapps/thriftskool/gcm_send.php on line 216
+[24-Nov-2015 00:00:06] PHP Fatal error:  Using $this when not in object context in /home3/thriftt1/public_html/mobileapps/thriftskool/gcm_send.php on line 216
+[25-Nov-2015 00:00:06] PHP Fatal error:  Using $this when not in object context in /home3/thriftt1/public_html/mobileapps/thriftskool/gcm_send.php on line 216
+[26-Nov-2015 00:00:05] PHP Fatal error:  Using $this when not in object context in /home3/thriftt1/public_html/mobileapps/thriftskool/gcm_send.php on line 216
+[27-Nov-2015 00:00:05] PHP Fatal error:  Using $this when not in object context in /home3/thriftt1/public_html/mobileapps/thriftskool/gcm_send.php on line 216
+[28-Nov-2015 00:00:05] PHP Fatal error:  Using $this when not in object context in /home3/thriftt1/public_html/mobileapps/thriftskool/gcm_send.php on line 216
+[29-Nov-2015 00:00:06] PHP Fatal error:  Using $this when not in object context in /home3/thriftt1/public_html/mobileapps/thriftskool/gcm_send.php on line 216
+[30-Nov-2015 00:00:07] PHP Fatal error:  Using $this when not in object context in /home3/thriftt1/public_html/mobileapps/thriftskool/gcm_send.php on line 216
+[01-Dec-2015 00:00:05] PHP Fatal error:  Using $this when not in object context in /home3/thriftt1/public_html/mobileapps/thriftskool/gcm_send.php on line 216
+[01-Dec-2015 03:00:14 America/Denver] PHP Fatal error:  Call to undefined function create_sql() in /home3/thriftt1/public_html/mobileapps/thriftskool/adminer.php on line 1405
+[01-Dec-2015 15:59:07 UTC] PHP Fatal error:  Call to undefined method mylibrary::send_post_messaged_mail1() in /home3/thriftt1/public_html/mobileapps/thriftskool/application/modules/webservice/models/webservice_model.php on line 3591
+[03-Dec-2015 05:00:54 America/Denver] PHP Fatal error:  Call to undefined function create_sql() in /home3/thriftt1/public_html/mobileapps/thriftskool/adminer-4.2.3.php on line 1405
+[03-Dec-2015 05:10:46 America/Denver] PHP Fatal error:  Call to undefined function create_sql() in /home3/thriftt1/public_html/mobileapps/thriftskool/adminer-4.2.3.php on line 1405
+[03-Dec-2015 05:11:25 America/Denver] PHP Fatal error:  Call to undefined function create_sql() in /home3/thriftt1/public_html/mobileapps/thriftskool/adminer-4.2.3.php on line 1405
+[03-Dec-2015 05:14:31 America/Denver] PHP Fatal error:  Call to undefined function create_sql() in /home3/thriftt1/public_html/mobileapps/thriftskool/adminer-4.2.3.php on line 1405
+[03-Dec-2015 05:31:12 America/Denver] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home3/thriftt1/public_html/mobileapps/thriftskool/adminer-4.2.3.php on line 13
+[03-Dec-2015 05:31:17 America/Denver] PHP Parse error:  syntax error, unexpected 'm', expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home3/thriftt1/public_html/mobileapps/thriftskool/adminer-4.2.3.php on line 166
+[03-Dec-2015 05:31:24 America/Denver] PHP Parse error:  syntax error, unexpected '€', expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home3/thriftt1/public_html/mobileapps/thriftskool/adminer-4.2.3.php on line 166
+[03-Dec-2015 05:31:24 America/Denver] PHP Parse error:  syntax error, unexpected 'r', expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home3/thriftt1/public_html/mobileapps/thriftskool/adminer-4.2.3.php on line 166
+[10-Dec-2015 20:17:44 UTC] PHP Fatal error:  Call to undefined method mylibrary::send_post_messaged_mail1() in /home3/thriftt1/public_html/mobileapps/thriftskool/application/modules/webservice/models/webservice_model.php on line 3662
+[10-Dec-2015 22:03:53 UTC] PHP Fatal error:  Call to undefined method mylibrary::send_post_messaged_mail1() in /home3/thriftt1/public_html/mobileapps/thriftskool/application/modules/webservice/models/webservice_model.php on line 3662
+[16-Dec-2015 00:00:05] PHP Fatal error:  Using $this when not in object context in /home3/thriftt1/public_html/mobileapps/thriftskool/gcm_send.php on line 216
+[17-Dec-2015 00:00:04] PHP Fatal error:  Using $this when not in object context in /home3/thriftt1/public_html/mobileapps/thriftskool/gcm_send.php on line 216
+[18-Dec-2015 00:00:03] PHP Fatal error:  Using $this when not in object context in /home3/thriftt1/public_html/mobileapps/thriftskool/gcm_send.php on line 216
+[18-Dec-2015 17:03:29 UTC] PHP Fatal error:  Call to undefined method mylibrary::send_post_messaged_mail1() in /home3/thriftt1/public_html/mobileapps/thriftskool/application/modules/webservice/models/webservice_model.php on line 3663
+[19-Dec-2015 06:32:31 UTC] PHP Fatal error:  Class 'Webservice_model' not found in /home3/thriftt1/public_html/mobileapps/thriftskool/application/third_party/MX/Loader.php on line 203
+[19-Dec-2015 00:00:04] PHP Fatal error:  Using $this when not in object context in /home3/thriftt1/public_html/mobileapps/thriftskool/gcm_send.php on line 216
+[19-Dec-2015 07:20:32 UTC] PHP Fatal error:  Class 'Webservice_model' not found in /home3/thriftt1/public_html/mobileapps/thriftskool/application/third_party/MX/Loader.php on line 203
+[19-Dec-2015 08:52:34 UTC] PHP Fatal error:  Class 'Webservice_model' not found in /home3/thriftt1/public_html/mobileapps/thriftskool/application/third_party/MX/Loader.php on line 203
+[20-Dec-2015 00:00:05] PHP Fatal error:  Using $this when not in object context in /home3/thriftt1/public_html/mobileapps/thriftskool/gcm_send.php on line 216
+[21-Dec-2015 00:00:04] PHP Fatal error:  Using $this when not in object context in /home3/thriftt1/public_html/mobileapps/thriftskool/gcm_send.php on line 216
+[22-Dec-2015 00:00:04] PHP Fatal error:  Using $this when not in object context in /home3/thriftt1/public_html/mobileapps/thriftskool/gcm_send.php on line 216
+[23-Dec-2015 00:00:04] PHP Fatal error:  Using $this when not in object context in /home3/thriftt1/public_html/mobileapps/thriftskool/gcm_send.php on line 216
+[24-Dec-2015 00:00:04] PHP Fatal error:  Using $this when not in object context in /home3/thriftt1/public_html/mobileapps/thriftskool/gcm_send.php on line 216
+[25-Dec-2015 00:00:04] PHP Fatal error:  Using $this when not in object context in /home3/thriftt1/public_html/mobileapps/thriftskool/gcm_send.php on line 216
+[26-Dec-2015 00:00:04] PHP Fatal error:  Using $this when not in object context in /home3/thriftt1/public_html/mobileapps/thriftskool/gcm_send.php on line 216
+[27-Dec-2015 00:00:04] PHP Fatal error:  Using $this when not in object context in /home3/thriftt1/public_html/mobileapps/thriftskool/gcm_send.php on line 216
+[28-Dec-2015 00:00:04] PHP Fatal error:  Using $this when not in object context in /home3/thriftt1/public_html/mobileapps/thriftskool/gcm_send.php on line 216
+[29-Dec-2015 00:00:04] PHP Fatal error:  Using $this when not in object context in /home3/thriftt1/public_html/mobileapps/thriftskool/gcm_send.php on line 216
+[30-Dec-2015 00:00:04] PHP Fatal error:  Using $this when not in object context in /home3/thriftt1/public_html/mobileapps/thriftskool/gcm_send.php on line 216
+[30-Dec-2015 22:32:23 America/Denver] PHP Fatal error:  Call to a member function query() on a non-object in /home3/thriftt1/public_html/mobileapps/thriftskool/adminer.php on line 51
+[31-Dec-2015 00:00:03] PHP Fatal error:  Using $this when not in object context in /home3/thriftt1/public_html/mobileapps/thriftskool/gcm_send.php on line 216
+[01-Jan-2016 00:00:04] PHP Fatal error:  Using $this when not in object context in /home3/thriftt1/public_html/mobileapps/thriftskool/gcm_send.php on line 216
+[01-Jan-2016 02:00:24 America/Denver] PHP Fatal error:  Call to a member function query() on a non-object in /home3/thriftt1/public_html/mobileapps/thriftskool/adminer.php on line 51
+[01-Jan-2016 02:06:02 America/Denver] PHP Fatal error:  Call to a member function query() on a non-object in /home3/thriftt1/public_html/mobileapps/thriftskool/adminer.php on line 51
+[01-Jan-2016 21:33:13 America/Denver] PHP Fatal error:  Call to a member function query() on a non-object in /home3/thriftt1/public_html/mobileapps/thriftskool/adminer.php on line 51
+[01-Jan-2016 21:33:42 America/Denver] PHP Fatal error:  Call to a member function query() on a non-object in /home3/thriftt1/public_html/mobileapps/thriftskool/adminer.php on line 51
+[01-Jan-2016 21:33:46 America/Denver] PHP Fatal error:  Call to a member function query() on a non-object in /home3/thriftt1/public_html/mobileapps/thriftskool/adminer.php on line 51
+[01-Jan-2016 21:33:53 America/Denver] PHP Fatal error:  Call to a member function query() on a non-object in /home3/thriftt1/public_html/mobileapps/thriftskool/adminer.php on line 51
+[01-Jan-2016 21:34:04 America/Denver] PHP Fatal error:  Call to a member function query() on a non-object in /home3/thriftt1/public_html/mobileapps/thriftskool/adminer.php on line 51
+[02-Jan-2016 00:00:04] PHP Fatal error:  Using $this when not in object context in /home3/thriftt1/public_html/mobileapps/thriftskool/gcm_send.php on line 216
+[03-Jan-2016 00:00:04] PHP Fatal error:  Using $this when not in object context in /home3/thriftt1/public_html/mobileapps/thriftskool/gcm_send.php on line 216
+[04-Jan-2016 00:00:04] PHP Fatal error:  Using $this when not in object context in /home3/thriftt1/public_html/mobileapps/thriftskool/gcm_send.php on line 216
+[05-Jan-2016 00:00:03] PHP Fatal error:  Using $this when not in object context in /home3/thriftt1/public_html/mobileapps/thriftskool/gcm_send.php on line 216
+[06-Jan-2016 06:01:20 UTC] PHP Fatal error:  Call to undefined method mylibrary::send_post_messaged_mail1() in /home3/thriftt1/public_html/mobileapps/thriftskool/application/modules/webservice/models/webservice_model.php on line 3756
+[06-Jan-2016 00:00:04] PHP Fatal error:  Using $this when not in object context in /home3/thriftt1/public_html/mobileapps/thriftskool/gcm_send.php on line 216
+[07-Jan-2016 00:00:03] PHP Fatal error:  Using $this when not in object context in /home3/thriftt1/public_html/mobileapps/thriftskool/gcm_send.php on line 216
+[08-Jan-2016 00:00:04] PHP Fatal error:  Using $this when not in object context in /home3/thriftt1/public_html/mobileapps/thriftskool/gcm_send.php on line 216
+[09-Jan-2016 00:00:04] PHP Fatal error:  Using $this when not in object context in /home3/thriftt1/public_html/mobileapps/thriftskool/gcm_send.php on line 216
+[10-Jan-2016 00:00:04] PHP Fatal error:  Using $this when not in object context in /home3/thriftt1/public_html/mobileapps/thriftskool/gcm_send.php on line 216
+[10-Jan-2016 23:32:30 America/Denver] PHP Fatal error:  Call to undefined function create_sql() in /home3/thriftt1/public_html/mobileapps/thriftskool/adminer.php on line 1405
+[10-Jan-2016 23:32:45 America/Denver] PHP Fatal error:  Call to undefined function create_sql() in /home3/thriftt1/public_html/mobileapps/thriftskool/adminer.php on line 1405
+[10-Jan-2016 23:32:57 America/Denver] PHP Fatal error:  Call to undefined function create_sql() in /home3/thriftt1/public_html/mobileapps/thriftskool/adminer.php on line 1405
+[10-Jan-2016 23:33:02 America/Denver] PHP Fatal error:  Call to undefined function create_sql() in /home3/thriftt1/public_html/mobileapps/thriftskool/adminer.php on line 1405
+[11-Jan-2016 00:00:04] PHP Fatal error:  Using $this when not in object context in /home3/thriftt1/public_html/mobileapps/thriftskool/gcm_send.php on line 216
+[11-Jan-2016 00:00:51 America/Denver] PHP Fatal error:  Call to undefined function create_sql() in /home3/thriftt1/public_html/mobileapps/thriftskool/adminer.php on line 1405
+[12-Jan-2016 00:00:04] PHP Fatal error:  Using $this when not in object context in /home3/thriftt1/public_html/mobileapps/thriftskool/gcm_send.php on line 216
+[13-Jan-2016 00:00:04] PHP Fatal error:  Using $this when not in object context in /home3/thriftt1/public_html/mobileapps/thriftskool/gcm_send.php on line 218
+[14-Jan-2016 00:00:07] PHP Fatal error:  Using $this when not in object context in /home3/thriftt1/public_html/mobileapps/thriftskool/gcm_send.php on line 218
+[15-Jan-2016 00:00:04] PHP Fatal error:  Using $this when not in object context in /home3/thriftt1/public_html/mobileapps/thriftskool/gcm_send.php on line 218
+[16-Jan-2016 00:00:07] PHP Warning:  pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not translate host name &quot;localhost&quot; to address: Name or service not known in /home3/thriftt1/public_html/mobileapps/thriftskool/gcm_send.php on line 3
+[16-Jan-2016 07:00:07] PHP Warning:  pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not translate host name &quot;localhost&quot; to address: Name or service not known in /home3/thriftt1/public_html/mobileapps/thriftskool/logmanager.php on line 6
+[17-Jan-2016 00:00:07] PHP Fatal error:  Using $this when not in object context in /home3/thriftt1/public_html/mobileapps/thriftskool/gcm_send.php on line 218
+[18-Jan-2016 00:00:06] PHP Fatal error:  Using $this when not in object context in /home3/thriftt1/public_html/mobileapps/thriftskool/gcm_send.php on line 218
+[19-Jan-2016 00:00:07] PHP Fatal error:  Using $this when not in object context in /home3/thriftt1/public_html/mobileapps/thriftskool/gcm_send.php on line 218
+[20-Jan-2016 00:00:06] PHP Fatal error:  Using $this when not in object context in /home3/thriftt1/public_html/mobileapps/thriftskool/gcm_send.php on line 218
+[21-Jan-2016 04:49:52 UTC] PHP Fatal error:  Call to a member function num_rows() on a non-object in /home3/thriftt1/public_html/mobileapps/thriftskool/application/modules/webservice/models/webservice_model.php on line 31
+[21-Jan-2016 04:49:55 UTC] PHP Fatal error:  Call to a member function num_rows() on a non-object in /home3/thriftt1/public_html/mobileapps/thriftskool/application/modules/webservice/models/webservice_model.php on line 31
+[21-Jan-2016 04:49:56 UTC] PHP Fatal error:  Call to a member function num_rows() on a non-object in /home3/thriftt1/public_html/mobileapps/thriftskool/application/modules/webservice/models/webservice_model.php on line 31
+[21-Jan-2016 04:50:04 UTC] PHP Fatal error:  Call to a member function num_rows() on a non-object in /home3/thriftt1/public_html/mobileapps/thriftskool/application/modules/webservice/models/webservice_model.php on line 31
+[21-Jan-2016 04:50:36 UTC] PHP Fatal error:  Call to a member function num_rows() on a non-object in /home3/thriftt1/public_html/mobileapps/thriftskool/application/modules/webservice/models/webservice_model.php on line 31
+[21-Jan-2016 04:51:10 UTC] PHP Fatal error:  Call to a member function num_rows() on a non-object in /home3/thriftt1/public_html/mobileapps/thriftskool/application/modules/webservice/models/webservice_model.php on line 31
+[21-Jan-2016 04:52:16 UTC] PHP Fatal error:  Call to a member function num_rows() on a non-object in /home3/thriftt1/public_html/mobileapps/thriftskool/application/modules/webservice/models/webservice_model.php on line 31
+[21-Jan-2016 04:52:22 UTC] PHP Fatal error:  Call to a member function num_rows() on a non-object in /home3/thriftt1/public_html/mobileapps/thriftskool/application/modules/webservice/models/webservice_model.php on line 31
+[21-Jan-2016 00:00:06] PHP Fatal error:  Using $this when not in object context in /home3/thriftt1/public_html/mobileapps/thriftskool/gcm_send.php on line 218
+[22-Jan-2016 00:00:08] PHP Fatal error:  Using $this when not in object context in /home3/thriftt1/public_html/mobileapps/thriftskool/gcm_send.php on line 218
+[23-Jan-2016 00:00:08] PHP Fatal error:  Using $this when not in object context in /home3/thriftt1/public_html/mobileapps/thriftskool/gcm_send.php on line 218
+[24-Jan-2016 00:00:06] PHP Fatal error:  Using $this when not in object context in /home3/thriftt1/public_html/mobileapps/thriftskool/gcm_send.php on line 218
+[25-Jan-2016 00:00:05] PHP Fatal error:  Using $this when not in object context in /home3/thriftt1/public_html/mobileapps/thriftskool/gcm_send.php on line 218
+[26-Jan-2016 00:00:07] PHP Fatal error:  Using $this when not in object context in /home3/thriftt1/public_html/mobileapps/thriftskool/gcm_send.php on line 218

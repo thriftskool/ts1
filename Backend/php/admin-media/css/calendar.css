@@ -1,0 +1,239 @@
+.cal-bg-title-month {
+    background: none repeat scroll 0 0 #DAE6ED;
+    color: #05335A;
+    line-height: 36px;
+    padding: 0 10px;
+    text-align: center;
+    border: 1px solid #96C993;
+}
+
+.cal-bg-title {
+    margin: auto;
+    min-height: 25px;
+    padding: 0 0 0 10px;
+}
+.cal-bg-title .filter {
+    color: #05335A;
+    float: left;
+    font-weight: bold;
+    width: 80px;
+}
+
+.cal-bg-title .month {
+    color: #05335A;
+    float: left;
+    font-size: 14px;
+    width: 180px;
+}
+.cal-bg-title .year {
+    color: #05335A;
+    float: left;
+    font-size: 14px;
+    width: 120px;
+}
+
+.prev-btn {
+    background: url("../images/calendar/prev-btn.png") no-repeat scroll left top transparent;
+    display: block;
+    float: left;
+    height: 25px;
+    margin: 5px 0 0;
+    width: 69px;
+}
+.prev-btn:hover {
+    background: url("../images/calendar/prev-btn-hvr.png") no-repeat scroll left top transparent;
+    display: block;
+    height: 25px;
+    width: 69px;
+}
+.next-btn {
+    background: url("../images/calendar/next-btn.png") no-repeat scroll left top transparent;
+    display: block;
+    float: left;
+    height: 25px;
+    margin: 5px 0 0;
+    width: 69px;
+}
+.next-btn:hover {
+    background: url("../images/calendar/next-btn-hvr.png") no-repeat scroll left top transparent;
+    display: block;
+    height: 25px;
+    width: 69px;
+}
+.go-button {
+    background: url("../images/calendar/go.jpg") no-repeat scroll left top transparent;
+    display: block;
+    float: left;
+    height: 20px;
+    margin: 8px 0 0;
+    width: 29px;
+}
+.go-button:hover {
+    background: url("../images/calendar/go-hvr.jpg") no-repeat scroll left top transparent;
+    display: block;
+    height: 20px;
+    width: 29px;
+}
+
+table.calendar    { border-left:1px solid #999; }
+
+td.month-heading{background: none repeat scroll 0 0 #FFF8E9; border-top: 1px solid #CBCACA; border-right: 1px solid #CBCACA; color: #006598;font-weight: bold;padding: 7px 5px;text-align: center;}
+tr.calendar-row  {  }
+td.calendar-day  { min-height:80px; position:relative; } * html div.calendar-day { height:80px; }
+td.calendar-day:hover  { background:#eceff5; }
+td.calendar-day-np  { background:#eee; min-height:80px; } * html div.calendar-day-np { height:80px; }
+td.calendar-day-head { background:#ccc; font-weight:bold; text-align:center; width:120px; padding:5px; border-bottom:1px solid #999; border-top:1px solid #999; border-right:1px solid #999; }
+div.day-number    {padding:5px; color:#666666; font-weight:bold; font-size: 14px; margin:-5px 0 0 0; width:20px; text-align:center; }
+/* shared */
+td.calendar-day, td.calendar-day-np { width:120px; height: 150px; border-bottom:1px solid #999; border-right:1px solid #999; }
+
+div.arrival {
+  /*  background: url("../images/calendar/arrival.jpg") no-repeat scroll left top #F4E8D0; */
+    color: #FFFFFF;
+    float: right;
+    font-size: 11px;
+    font-weight: bold;
+    height: 17px;
+    left: 48%;
+    margin: 5px 0 0;
+    padding: 0;
+/*    position: absolute;*/
+    text-align: center;
+    width: 20%;
+    float: right;
+}
+div.arrival a {
+    color: #000000;
+    display: block;
+    text-decoration: none;
+}
+div.arrival a:hover {
+    color: #5D3E00;
+}
+
+
+/* Added By Khushwant */
+
+div.arrow-arrival {
+  width:0px; 
+  height:0px; 
+  border-bottom:0px solid transparent;  /* left arrow slant */
+  border-top:17px solid transparent; /* right arrow slant */
+  border-right:17px solid #CFCFCF; /* bottom, add background color here */
+  font-size:0px;
+  line-height:0px;
+  float: right;
+  margin: 5px 0 0;
+}
+
+div.arrow-depature {
+  width:0px; 
+  height:0px; 
+  border-bottom:17px solid transparent;  /* left arrow slant */
+  border-top:0px solid transparent; /* right arrow slant */
+  border-left:17px solid #CFCFCF; /* bottom, add background color here */
+  font-size:0px;
+  line-height:0px;
+  float: left;
+  margin: 5px 0 0;
+}
+
+
+div.depature {
+  /*  background: url("../images/calendar/departure.jpg") no-repeat scroll right bottom #F4E8D0; */
+    color: #FFFFFF;
+    font-size: 11px;
+    font-weight: bold;
+    height: 17px;
+    margin: 5px 0 0;
+    padding: 0;
+ /*   position: absolute; */
+    text-align: center;
+    width: 20%;
+    float: left;
+}
+div.depature a {
+    color: #000000;
+    display: block;
+    text-decoration: none;
+}
+div.depature a:hover {
+    color: #5D3E00;
+}
+div.unit1-arrival-depature {
+    background: url("../images/calendar/arrival-depature.jpg") no-repeat scroll center top #F4E8D0;
+    color: #000000;
+    font-size: 11px;
+    font-weight: bold;
+    height: 17px;
+    margin: 5px 0 0;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+}
+div.unit1-arrival-depature a {
+    color: #000000;
+    display: block;
+    text-decoration: none;
+}
+div.unit1-arrival-depature a:hover {
+    color: #5D3E00;
+}
+div.unit1-book {
+    background: none repeat scroll 0 0 #F4E8D0;
+    color: #000000;
+    font-size: 11px;
+    height: 17px;
+    margin: 5px 0 0;
+    padding: 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    left: 0px; 
+}
+div.unit1-book a {
+    color: #000000;
+    display: block;
+    text-decoration: none;
+}
+div.unit1-book a:hover {
+    color: #5D3E00;
+}
+.calendar-row .postition {
+    height: 45px;
+    position: relative;
+}
+
+.calendar-property{
+    border-bottom: 1px solid #999999;
+ height: 150px;
+}
+.calendar-color-thumb{
+    width:15px;
+    height:15px;
+}
+.calendar-pdr5{
+    padding-right: 5px !important;
+}
+.calendar-property-first-td{
+    padding: 8px 5px;
+}
+.calendar-property-second-td{
+    padding-bottom: 5px;
+    padding-top: 6px;
+}
+.calendar-property .postition{
+    border-top: 1px solid #999999;
+    height: 44px;
+}
+.calendar-property .postition-last{
+    border-bottom: 1px solid #999999;
+    height: 43px !important;
+}
+
+.property-content {
+    margin-left:4px;margin-top:4px;
+}
+.mgl2{
+    margin-left: 2px;
+}

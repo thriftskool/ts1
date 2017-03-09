@@ -1,0 +1,85 @@
+#popup_container {
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	min-width: 350px; /* Dialog will be no smaller than this */
+	max-width: 500px; /* Dialog will wrap after this width */
+	background: #ebf1f5 no-repeat right 0 url(../images/pop-up-close.gif) ;
+	border: solid 5px #0e1f2d;
+	color: #000;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 2px;
+}
+#popup_title {
+	font-size: 18px;
+	font-weight: normal;
+	text-align: left;
+	line-height:40px;
+	color: #fff;
+	border: solid 1px #0e1f2d;
+	border-bottom: solid 1px #fff;
+	cursor: default;
+	padding: 0 0 0 45px ;
+	margin: 0em;
+    background: no-repeat 5px 7px url(../images/info-icon.png)  #0e1f2d;
+
+}
+/*
+#popup_content {
+	background: no-repeat url(../images/info.png);
+	padding: 1em 0 ;
+    text-align:center;
+	margin: 0em;
+}
+
+#popup_content.alert {
+	background: no-repeat 5px 5px url(../images/info.png);
+    padding: 10px  0 ;
+}
+
+#popup_content.confirm {
+	background: no-repeat 5px 5px url(../images/important.gif);
+    padding: 10px  0 ;
+}
+
+#popup_content.prompt {
+	background: no-repeat 5px 5px url(../images/help.gif);
+    padding: 10px  0 ;
+}
+*/
+#popup_message {
+	padding: 10px 10px 10px 10px;
+}
+
+#popup_panel {
+	text-align: center;
+	margin: 1em 0em 1em 1em;
+}
+
+#popup_prompt {
+	margin: .5em 0em;
+}
+.divalertmessage
+{
+/*padding:2px 15px 5px 15px;*/
+font-size:12px;
+color:#020202;
+line-height:17px;
+text-align:justify;
+}
+/*--Pop-up-css--*/
+.left {float:left; }
+.right {float:right; }
+
+.pop-up-top-box{ background:#0e1f2d; width:570px; height:5px; float:left;}
+.pop-up-box {background:#0e1f2d; width:570px; padding:0 5px;}
+.pop-up-box h2 {margin:0; padding:3px 0 0 0; font-size:18px; color:#fff; font-weight:normal; float:left;width:400px;}
+.n_pop-up-box {background:#0e1f2d; width:480px; padding:0 5px;}
+.n_pop-up-box h2 {margin:0; padding:3px 0 0 0; font-size:18px; color:#fff; font-weight:normal; float:left;width:400px;}
+.n_pop-up-user-box{ background:#0e1f2d; width:480px; height:5px; float:left;}
+.spacer {clear:both; }
+
+.white-box-bg { background:#ebf1f5; }
+.whitebg { font-size:12px; font-family:Arial, Helvetica, sans-serif; padding:20px 15px;}
+.whitebg h3 {margin:0; padding:3px 0 0 0; font-size:12px; color:#0e3c55; }
+

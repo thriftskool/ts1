@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+              android:background="@color/color_white"
+
+    >
+
+    <include
+        layout="@layout/header"
+
+        />
+
+    <com.thriftskool.thriftskool1.widgets.TextViewMyriadProRegular
+        android:id="@+id/InBoxDetailScreen_title"
+        android:padding="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@color/color_titledetailcolor"
+        android:textColor="@color/color_white"
+        android:textSize="18sp"
+        />
+
+    <com.thriftskool.thriftskool1.widgets.AmazingListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/InBoxDetailScreen_listView"
+        android:layout_weight="1"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:smoothScrollbar="true"
+        android:background="@color/color_white"
+
+
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/seprater"
+        />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:padding="7dp"
+
+    >
+
+    <com.thriftskool.thriftskool1.widgets.EditTextMyriadProRegular
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/InBoxDetailScreen_sendMessage"
+        android:background="@android:color/transparent"
+        android:padding="10dp"
+        android:layout_weight="1"
+        android:inputType="text"
+        android:hint="Type a message..."
+        android:imeOptions="actionSend"
+        android:textColor="@color/color_textcolor"
+        android:textColorHint="@color/color_hinttextcolor"
+
+
+
+
+        />
+    <com.thriftskool.thriftskool1.widgets.TextAwesome
+        android:text="@string/fa_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:id="@+id/InBoxDetailScreen_send"
+        android:visibility="gone"
+        />
+
+</LinearLayout>
+
+
+</LinearLayout>

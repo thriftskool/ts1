@@ -1,0 +1,164 @@
+/* ######### Drop Down ULs CSS ######### */
+
+
+.ddsubmenustyle, .ddsubmenustyle ul{ /*topmost and sub ULs, respectively*/
+margin:0 0 0 0;
+padding: 0 5px 0 22px;
+position: absolute;
+left: 0;
+top: 0;
+list-style-type: none;
+visibility: hidden;
+z-index: 999;
+width: 155px;
+background:url(../images/menu-back.png) top repeat-x;
+background-color:#82adcd;
+border:#FFFFFF 2px solid;
+list-style:url(../images/bullet-1.gif);
+
+}
+
+.ddsubmenustyle li a{
+width: 162px; /*width of menu (not including side paddings)*/
+color:#000000; 
+/*border:#cee0ec 2px solid;*/
+text-decoration: none;
+padding: 6px 6px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight:bold;
+font-size:12px;
+display:block ;
+z-index:200;
+border-bottom: 1px dotted #52575B;
+}
+
+
+* html .ddsubmenustyle li{ /*IE6 CSS hack*/
+display:block;
+width: 170px; /*width of menu (include side paddings of LI A*/
+}
+
+.ddsubmenustyle li a:hover{
+/*background-color:#000000;*/
+color:#035479;
+font-weight:bold;
+
+}
+
+.ddsubmenustyle2, .ddsubmenustyle2 ul{ /*topmost and sub ULs, respectively*/
+margin: 0;
+padding: 0;
+position: absolute;
+left: 0;
+top: 0;
+list-style-type: none;
+visibility: hidden;
+z-index: 100;
+background-color:#000000;
+width: 78px;
+
+}
+
+
+.ddsubmenustyle2 li a{
+width: 78px; /*width of menu (not including side paddings)*/
+color: black;
+border:#000000 2px solid;
+background-color:#000000;
+text-decoration: none;
+padding: 4px 5px;
+font-family:Tahoma, Geneva, sans-serif;
+font-size:11px;
+display:block ;
+z-index:200;
+}
+
+* html .ddsubmenustyle2 li{ /*IE6 CSS hack*/
+display:block;
+width: 78px; /*width of menu (include side paddings of LI A*/
+}
+
+.ddsubmenustyle2 li a:hover{
+background-color:#000000;
+color:#4383b9;
+
+}
+/*-------------heena---------*/
+.ddsubmenustyle1, .ddsubmenustyle1 ul{ /*topmost and sub ULs, respectively*/
+margin:0 0 0 0;
+padding:3px 5px 3px 5px;
+position: absolute;
+left: 0;
+top: 0;
+list-style-type: none;
+visibility: hidden;
+z-index: 999;
+width: 100px;
+background-color:#fff;
+border:#8dd8f8 1px solid;
+-moz-border-radius-bottomleft:2px; -moz-border-radius-bottomright:2px; -moz-border-radius-topleft:2px; -moz-border-radius-topright:2px;
+
+
+}
+
+.ddsubmenustyle1 li a{
+width: 100px; /*width of menu (not including side paddings)*/
+color:#000000; 
+/*border:#cee0ec 2px solid;*/
+text-decoration: none;
+padding: 6px 5px;
+font-family: Arial, Helvetica, sans-serif;
+font-size:12px;
+display:block ;
+z-index:200;
+
+}
+
+
+* html .ddsubmenustyle1 li{ /*IE6 CSS hack*/
+display:block;
+width: 170px; /*width of menu (include side paddings of LI A*/
+}
+
+.ddsubmenustyle1 li a:hover, .ddsubmenustyle1 li a.selected{
+/*background-color:#000000;*/
+color:#fff;
+background:#197eb2;
+-moz-border-radius-bottomleft:4px; -moz-border-radius-bottomright:4px; -moz-border-radius-topleft:4px; -moz-border-radius-topright:4px;
+
+}
+
+/*-------------heena---------*/
+
+/* ######### Neutral CSS  ######### */
+
+.downarrowpointer{ /*CSS for "down" arrow image added to top menu items*/
+padding-left:0;
+border: 0;
+}
+
+.rightarrowpointer{ /*CSS for "right" arrow image added to drop down menu items*/
+position: absolute;
+padding-top: 3px;
+left: 100px;
+border: 0;
+}
+
+.ddiframeshim{
+position: absolute;
+z-index: 500;
+background: transparent;
+border-width: 0;
+width: 0;
+height: 0;
+display: block;
+}
+
+
+.ddsubmenustyle li ul{}
+
+.ddsubmenustyle li ul, .ddsubmenustyle li ul li ul{ left:212px !important; /*top:0 !important;*/}
+.ddsubmenustyle li ul li ul{}
+
+.ddsubmenustyle li.sub { margin-left:12px;/*width of menu (not including side paddings)*/}
+.ddsubmenustyle li.sub a{width: 167px; /*width of menu (not including side paddings)*/}

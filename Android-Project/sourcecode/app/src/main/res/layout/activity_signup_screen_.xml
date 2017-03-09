@@ -1,0 +1,192 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+              android:background="@drawable/splash"
+            android:gravity="center">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="bottom|center"
+            android:padding="10dp"
+            >
+
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_centerInParent="true"
+                android:id="@+id/SignupScreen_logo"
+                />
+            <com.thriftskool.thriftskool1.widgets.CircularImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/CandidateProfile_image"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/profilepic"
+                android:visibility="gone"
+              />
+
+            <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/username"
+            android:gravity="center"
+            >
+
+            <com.thriftskool.thriftskool1.widgets.TextViewMyriadProRegular
+                android:layout_weight="1"
+                android:id="@+id/SignupScreen_University"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/universityid_alert_signupscreen"
+                android:padding="10dp"
+                android:textSize="15sp"
+                android:textColor="@color/color_textcolor"
+                android:textColorHint="@color/color_hinttextcolor"/>
+
+
+            <com.thriftskool.thriftskool1.widgets.TextAwesome
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fa_angle_right"
+                android:layout_marginRight="10dp"
+
+                />
+
+            </LinearLayout>
+
+            <com.thriftskool.thriftskool1.widgets.EditTextMyriadProRegular
+                android:layout_marginTop="10dp"
+                android:id="@+id/SignupScreen_UserName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/username_signupscreen"
+                android:background="@drawable/username"
+                android:padding="10dp"
+                android:textSize="15sp"
+                android:textColor="@color/color_textcolor"
+                android:textColorHint="@color/color_hinttextcolor"
+                />
+
+            <com.thriftskool.thriftskool1.widgets.EditTextMyriadProRegular
+
+                android:id="@+id/SignupScreen_Email"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/email_signupscreen"
+                android:background="@drawable/username"
+                android:padding="10dp"
+                android:textSize="15sp"
+                android:textColor="@color/color_textcolor"
+                android:textColorHint="@color/color_hinttextcolor"
+
+                />
+
+            <com.thriftskool.thriftskool1.widgets.EditTextMyriadProRegular
+                android:id="@+id/SignupScreen_Name"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/username"
+                android:padding="10dp"
+                android:hint="Name"
+                android:textSize="15sp"
+                android:textColor="@color/color_textcolor"
+                android:textColorHint="@color/color_hinttextcolor"
+                android:visibility="gone"
+                />
+
+            <Spinner
+                android:id="@+id/SignupScreen_Class"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:background="@drawable/username"
+                android:hint="Class"
+                android:textSize="10sp"
+                android:textColor="@color/color_textcolor"
+                android:textColorHint="@color/color_hinttextcolor"
+                android:visibility="gone"
+                />
+
+            <com.thriftskool.thriftskool1.widgets.EditTextMyriadProRegular
+                android:layout_marginTop="10dp"
+                android:id="@+id/SignupScreen_Password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/password_signupscreen"
+                android:inputType="textPassword"
+                android:background="@drawable/username"
+                android:padding="10dp"
+                android:textSize="15sp"
+                android:textColor="@color/color_textcolor"
+                android:textColorHint="@color/color_hinttextcolor"
+
+                />
+            <com.thriftskool.thriftskool1.widgets.EditTextMyriadProRegular
+                android:layout_marginTop="10dp"
+                android:id="@+id/SignupScreen_ConfirmPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/confirmpassword_signupscreen"
+                android:inputType="textPassword"
+                android:background="@drawable/username"
+                android:padding="10dp"
+                android:textSize="15sp"
+                android:textColor="@color/color_textcolor"
+                android:textColorHint="@color/color_hinttextcolor"
+
+                />
+
+
+            <CheckBox
+                android:id="@+id/SignupScreen_PrivacyPolicy"
+                android:text="@string/privacypolicy_signupscreen"
+                android:textColor="@color/color_white"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:button="@drawable/registration_checkbox"
+                android:layout_gravity="top"
+                android:gravity="top"
+                android:textSize="13sp"
+                />
+
+
+            <com.thriftskool.thriftskool1.widgets.TextViewMyriadProBold
+                android:textColor="@color/color_white"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/login"
+                android:padding="10dp"
+                android:id="@+id/SignupScreen_Submit"
+                android:text="@string/submit_signupscreen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

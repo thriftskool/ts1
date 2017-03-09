@@ -1,0 +1,164 @@
+/* 
+    Document   : photogallery
+    Created on : Sep 25, 2012, 12:41:33 PM
+    
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.photo-wrapper .photo-icons .edit-icon {
+background: url("../images/edit-icon-1.png") no-repeat scroll center center transparent;
+border-right: 1px solid #e5e5e5;
+display: block;
+float: left;
+height: 30px;
+width: 34px;
+}
+
+.photo-wrapper .photo-icons .edit-icon:hover {
+background: url("../images/edit-icon-hvr.png") no-repeat scroll center center transparent;
+}
+
+.add_detail {
+    color: #1C8DC3;
+    font-size: 18px;
+    margin: 0;
+    padding: 0 0 10px;
+}
+.additional_detail_content {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #E8E8E8;
+    border-style: solid;
+    border-width: 1px 1px 3px;
+    padding: 2%;
+}
+
+ul.photo-drag {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+ul.photo-drag li {
+    float: left;
+    height: 290px;
+    padding: 10px;
+    width: 270px;
+}
+.photo-wrapper {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #E5E5E5;
+    float: left;
+    margin: 0 1px;
+    width: 269px;
+}
+.photo-wrapper .photo-wrapper-img {
+    border-bottom: 1px solid #BBC5DB;
+    height: 161px;
+    overflow: hidden;
+    width: 269px;
+}
+.photo-wrapper .photo-wrapper-img img {
+    max-height: 161px;
+    max-width: 270px;
+}
+.photo-wrapper .photo-caption {
+    width: 270px;
+}
+.photo-wrapper .photo-caption textarea {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: medium none;
+    color: #999999;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    height: 50px;
+    padding: 5px;
+    width: 258px;
+}
+.photo-wrapper .photo-icons {
+    background: none repeat scroll 0 0 #F2F2F2;
+    border-top: 1px solid #E5E5E5;
+    height: 30px;
+    width: 270px;
+}
+.photo-wrapper .photo-icons .photo-default-icon {
+    background: url("../images/default-disable-icon.png") no-repeat scroll 5px 7px transparent;
+    border-right: 1px solid #E5E5E5;
+    color: #999999;
+    display: block;
+    float: left;
+    font-size: 11px;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 5px 0 25px;
+    text-decoration: none;
+}
+.photo-wrapper .photo-icons .photo-default-icon.active, .photo-wrapper .photo-icons .photo-default-icon:hover {
+    background: url("../images/default-active-icon.png") no-repeat scroll 5px 7px transparent;
+    color: #0D91CF;
+}
+.photo-wrapper .photo-icons .delete-icon {
+    background: url("../images/photo-delete-icon.png") no-repeat scroll center center transparent;
+    border-right: 1px solid #E5E5E5;
+    display: block;
+    float: left;
+    height: 30px;
+    width: 34px;
+}
+.photo-wrapper .photo-icons .delete-icon:hover {
+    background: url("../images/photo-delete-icon-hvr.png") no-repeat scroll center center transparent;
+}
+.photo-wrapper .photo-icons .edit-icon {
+    background: url("../images/edit-icon-1.png") no-repeat scroll center center transparent;
+    border-right: 1px solid #E5E5E5;
+    display: block;
+    float: left;
+    height: 30px;
+    width: 34px;
+}
+.photo-wrapper .photo-icons .edit-icon:hover {
+    background: url("../images/edit-icon-hvr.png") no-repeat scroll center center transparent;
+}
+.photo-wrapper .photo-icons .save-icon {
+    background: url("../images/save-icon.png") no-repeat scroll center center transparent;
+    border-right: 1px solid #E5E5E5;
+    display: block;
+    float: left;
+    height: 30px;
+    width: 34px;
+}
+.photo-wrapper .photo-icons .save-icon:hover {
+    background: url("../images/save-icon-hvr.png") no-repeat scroll center center transparent;
+}
+.photo-wrapper .photo-icons .crop-icon {
+    background: url("../images/crop-icon.png") no-repeat scroll center center transparent;
+    border-right: 1px solid #E5E5E5;
+    display: block;
+    float: left;
+    height: 30px;
+    width: 34px;
+}
+.photo-wrapper .photo-icons .crop-icon:hover {
+    background: url("../images/crop-icon-hvr.png") no-repeat scroll center center transparent;
+}
+.photo-wrapper .photo-icons .publish-icon {
+    background: url("../images/unpublish.png") no-repeat scroll center center transparent;
+    border-right: 1px solid #E5E5E5;
+    display: block;
+    float: left;
+    height: 30px;
+    width: 34px;
+}
+.photo-wrapper .photo-icons .publish-icon:hover, .photo-wrapper .photo-icons .publish-icon.active {
+    background: url("../images/publish.png") no-repeat scroll center center transparent;
+}
+
+
+
+.sel_gall {color: #1C8DC3;  font-size: 14px; font-weight:bold;  margin: 0;    padding: 0 0 10px;	font-family:Arial, Helvetica, sans-serif; }
+
+.combo-text{font-family:Arial, Helvetica, sans-serif; font-size:12px;  border: 1px solid #B4CFE0; padding:2px; color:#3E3E3E;} 

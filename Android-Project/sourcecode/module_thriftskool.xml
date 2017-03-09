@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_thriftskool" default="compile.module.thriftskool">
+  <dirname property="module.thriftskool.basedir" file="${ant.file.module_thriftskool}"/>
+  
+  <property name="module.jdk.home.thriftskool" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.thriftskool" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.thriftskool" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.thriftskool" value="-encoding UTF-8 -source 8 ${compiler.args}"/>
+  
+  <property name="thriftskool.output.dir" value="${module.thriftskool.basedir}/build/classes/production/ThriftSkool"/>
+  <property name="thriftskool.testoutput.dir" value="${module.thriftskool.basedir}/build/classes/test/ThriftSkool"/>
+  
+  <path id="thriftskool.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="thriftskool.module.production.classpath">
+    <path refid="${module.jdk.classpath.thriftskool}"/>
+  </path>
+  
+  <path id="thriftskool.runtime.production.module.classpath">
+    <pathelement location="${thriftskool.output.dir}"/>
+  </path>
+  
+  <path id="thriftskool.module.classpath">
+    <path refid="${module.jdk.classpath.thriftskool}"/>
+    <pathelement location="${thriftskool.output.dir}"/>
+  </path>
+  
+  <path id="thriftskool.runtime.module.classpath">
+    <pathelement location="${thriftskool.testoutput.dir}"/>
+    <pathelement location="${thriftskool.output.dir}"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.thriftskool">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.thriftskool">
+    <patternset refid="excluded.from.module.thriftskool"/>
+  </patternset>
+  
+  
+  <target name="compile.module.thriftskool" depends="compile.module.thriftskool.production,compile.module.thriftskool.tests" description="Compile module ThriftSkool"/>
+  
+  <target name="compile.module.thriftskool.production" depends="register.custom.compilers" description="Compile module ThriftSkool; production classes"/>
+  
+  <target name="compile.module.thriftskool.tests" depends="register.custom.compilers,compile.module.thriftskool.production" description="compile module ThriftSkool; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.thriftskool" description="cleanup module">
+    <delete dir="${thriftskool.output.dir}"/>
+    <delete dir="${thriftskool.testoutput.dir}"/>
+  </target>
+</project>

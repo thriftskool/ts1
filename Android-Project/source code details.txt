@@ -1,0 +1,17 @@
+Source code details
+
+App Name: thriftskool
+
+Platform: Android
+
+Version Details: 1.1.10 updated on Nov 24, 2016
+
+Supported OS version: upto android 6
+
+Supported Devices: Phone & Tablet
+
+Development language: Android studio
+
+Developer name: Etilox Solutions
+
+Contact Details: pratik@etilox.com

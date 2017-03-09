@@ -1,0 +1,131 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+              android:background="@drawable/splash">
+
+
+
+
+    <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center|bottom"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_centerInParent="true"
+                android:id="@+id/LoginScreen_logo"/>
+
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:gravity="bottom">
+
+
+            <com.thriftskool.thriftskool1.widgets.EditTextMyriadProRegular
+                android:id="@+id/LoginScreen_userName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/username_loginscreen"
+                android:padding="10dp"
+                android:background="@drawable/username"
+                android:textSize="15sp"
+                android:textColor="@color/color_textcolor"
+                android:textColorHint="@color/color_hinttextcolor"/>
+
+
+            <com.thriftskool.thriftskool1.widgets.EditTextMyriadProRegular
+                android:layout_marginTop="10dp"
+                android:id="@+id/LoginScreen_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:hint="@string/password_loginscreen"
+                android:padding="10dp"
+                android:background="@drawable/username"
+                android:textSize="15sp"
+                android:textColor="@color/color_textcolor"
+                android:textColorHint="@color/color_hinttextcolor"
+
+                />
+
+            <com.thriftskool.thriftskool1.widgets.TextViewMyriadProBold
+
+                android:layout_marginTop="10dp"
+                android:text="@string/submit_loginscreen"
+                android:id="@+id/LoginScreen_submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/login"
+                android:textColor="@color/color_white"
+                android:gravity="center"
+                android:padding="10dp"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <com.thriftskool.thriftskool1.widgets.TextViewMyriadProRegular
+
+            android:text="@string/forgotpassworg_loginscreen"
+            android:id="@+id/LoginScreen_ForgotPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_white"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textSize="13sp"
+            android:layout_weight="1"
+
+
+            />
+        <com.thriftskool.thriftskool1.widgets.TextViewMyriadProRegular
+
+            android:text="@string/forgotusername_loginscreen"
+            android:id="@+id/LoginScreen_ForgotUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_white"
+            android:gravity="center|right"
+            android:padding="10dp"
+            android:textSize="13sp"
+            android:layout_weight="1"
+            android:visibility="gone"
+            />
+
+
+    </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+</ScrollView>
+</RelativeLayout>

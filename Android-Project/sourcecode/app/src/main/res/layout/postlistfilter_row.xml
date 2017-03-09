@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:background="@android:color/transparent"
+              android:orientation="vertical" >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/username"
+        android:orientation="vertical"
+
+        android:layout_weight="1" >
+
+        <com.thriftskool.thriftskool1.widgets.TextViewMyriadProBold
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:text="Sort By"
+            android:textColor="@color/color_textcolor"
+
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/cusion_popup_Titel"
+            android:background="@drawable/seprater"
+            android:text="Select Cuisine" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/username"
+            android:orientation="horizontal"
+
+             >
+
+            <com.thriftskool.thriftskool1.widgets.TextViewMyriadProRegular
+                android:id="@+id/PostListFilter_popup_PriceHTOL"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textSize="15sp"
+                android:text="@string/price_high_to_low_filterpopup"
+                android:layout_weight="1"
+                android:textColor="@color/color_textcolor"
+
+                />
+
+            <com.thriftskool.thriftskool1.widgets.TextAwesome
+                android:id="@+id/PostListFilter_popup_PriceHTOLCheck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="10dp"
+                android:textSize="15sp"
+                android:textColor="@color/color_greenheader"
+                />
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/cusion_popup_Titel"
+            android:background="@drawable/seprater"
+            android:text="Select Cuisine" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/username"
+            android:orientation="horizontal"
+
+            >
+
+            <com.thriftskool.thriftskool1.widgets.TextViewMyriadProRegular
+                android:id="@+id/PostListFilter_popup_PriceLTOH"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textSize="15sp"
+                android:text="@string/price_low_to_heigh_filterpopup"
+                android:layout_weight="1"
+                android:textColor="@color/color_textcolor"
+
+                />
+
+            <com.thriftskool.thriftskool1.widgets.TextAwesome
+                android:id="@+id/PostListFilter_popup_PriceLTOHCheck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="10dp"
+                android:textSize="15sp"
+                android:textColor="@color/color_greenheader"
+                />
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/cusion_popup_Titel"
+            android:background="@drawable/seprater"
+            android:text="Select Cuisine" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/username"
+            android:orientation="horizontal"
+
+            >
+
+            <com.thriftskool.thriftskool1.widgets.TextViewMyriadProRegular
+                android:id="@+id/PostListFilter_popup_ExpiryDateSTOL"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textSize="15sp"
+                android:text="@string/expirydate_soone_to_later_filterpopup"
+                android:layout_weight="1"
+                android:textColor="@color/color_textcolor"
+
+                />
+
+            <com.thriftskool.thriftskool1.widgets.TextAwesome
+                android:id="@+id/PostListFilter_popup_ExpiryDateSTOLCheck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="10dp"
+                android:textSize="15sp"
+                android:textColor="@color/color_greenheader"
+                />
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/cusion_popup_Titel"
+            android:background="@drawable/seprater"
+            android:text="Select Cuisine" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/username"
+            android:orientation="horizontal"
+
+            >
+
+            <com.thriftskool.thriftskool1.widgets.TextViewMyriadProRegular
+                android:id="@+id/PostListFilter_popup_ExpiryDateLTOS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textSize="15sp"
+                android:text="@string/expirydate_later_to_soone_filterpopup"
+                android:layout_weight="1"
+                android:textColor="@color/color_textcolor"
+
+                />
+
+            <com.thriftskool.thriftskool1.widgets.TextAwesome
+                android:id="@+id/PostListFilter_popup_ExpiryDateLTOSCheck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="10dp"
+                android:textSize="15sp"
+                android:textColor="@color/color_greenheader"
+                />
+
+        </LinearLayout>
+    <com.thriftskool.thriftskool1.widgets.TextViewMyriadProBold
+        android:id="@+id/PostListFilter_popup_Cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/cancelpopup"
+        android:gravity="center"
+        android:text="Cancel"
+        android:padding="10dp"
+        android:textColor="@color/color_white"
+        android:textStyle="bold" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

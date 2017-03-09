@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:id="@+id/HomeListRow">
+
+
+    <LinearLayout
+        android:id="@+id/HomeListRow_Row_Layout"
+        android:background="@color/color_white"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        >
+
+        <com.thriftskool.thriftskool1.widgets.TextAwesome
+            android:id="@+id/HomeListRow_DeleteMessage"
+            android:layout_width="25dp"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:textColor="#ff0000"
+            android:textSize="18sp"
+            android:text="@string/fa_minus_circle"
+            android:layout_height="25dp"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <com.thriftskool.thriftskool1.widgets.SquareImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/HomeListRow_image"
+            android:scaleType="fitXY"
+            android:background="@drawable/lodingicon"
+
+            />
+</RelativeLayout>
+
+<LinearLayout
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <LinearLayout
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.thriftskool.thriftskool1.widgets.TextViewMyriadProRegular
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:id="@+id/HomeListRow_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <com.thriftskool.thriftskool1.widgets.TextAwesome
+                android:layout_marginLeft="10dp"
+                android:text="@string/fa_star_o"
+                android:id="@+id/HomeListRow_faverat"
+                android:layout_width="wrap_content"
+                android:textSize="18sp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_height="wrap_content"/>
+
+      <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/MessageScreen_CheckMsg"
+            android:paddingLeft="5dp"
+            android:visibility="gone"
+            android:button="@drawable/post_checkbox"
+            android:gravity="top"
+            />
+
+    </LinearLayout>
+
+        <LinearLayout
+
+            android:gravity="bottom"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.thriftskool.thriftskool1.widgets.TextViewMyriadProRegular
+
+                android:textSize="15sp"
+                android:layout_weight="1"
+                android:id="@+id/HomeListRow_expDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <com.thriftskool.thriftskool1.widgets.TextViewMyriadProRegular
+
+                android:gravity="right"
+                android:textSize="15sp"
+                android:id="@+id/HomeListRow_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+</LinearLayout>
+
+    </LinearLayout>
+
+     <LinearLayout
+        android:id="@+id/HomeListRow_SliderDeleteMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FF0000"
+        android:gravity="center"
+        android:visibility="gone"
+        android:orientation="horizontal" >
+
+        <com.thriftskool.thriftskool1.widgets.TextViewMyriadProBold
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:textSize="10sp"
+            android:textColor="#ffffff"
+           />
+    </LinearLayout>
+
+<!--
+
+
+-->
+
+
+
+</LinearLayout>

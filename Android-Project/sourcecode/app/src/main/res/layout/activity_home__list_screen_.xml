@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+              android:background="@color/color_bg"
+    >
+
+
+    <include
+        layout="@layout/header"
+        />
+
+    <com.thriftskool.thriftskool1.widgets.TextViewMyriadProRegular
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/HomeListScreen_textAlert"
+        android:visibility="gone"
+        android:gravity="center"
+        />
+
+    <com.thriftskool.thriftskool1.SwipeListView.SwipeListView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/HomeListScreen_ListView"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        />
+
+
+</LinearLayout>

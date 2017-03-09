@@ -1,0 +1,93 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/color_bg"
+    >
+
+
+    <include
+        layout="@layout/header"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:gravity="center_horizontal"
+    >
+    <com.thriftskool.thriftskool1.widgets.TextViewMyriadProRegular
+        android:text="@string/text_createnewuniversityscreen"
+        android:layout_width="wrap_content"
+        android:textSize="15sp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/color_textcolor"
+        />
+
+
+    <com.thriftskool.thriftskool1.widgets.EditTextMyriadProRegular
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/CreateNewUnivercityScreen_Name"
+        android:padding="10dp"
+        android:background="@drawable/post"
+        android:hint="University Name"
+        android:singleLine="true"
+        android:textSize="15sp"
+        android:textColor="@color/color_textcolor"
+        android:textColorHint="@color/color_hinttextcolor"
+        />
+
+
+    <com.thriftskool.thriftskool1.widgets.EditTextMyriadProRegular
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/CreateNewUnivercityScreen_ContactEmailAdd"
+        android:padding="10dp"
+        android:background="@drawable/post"
+        android:hint="University contact email address"
+        android:singleLine="true"
+        android:textSize="15sp"
+        android:textColor="@color/color_textcolor"
+        android:textColorHint="@color/color_hinttextcolor"
+        android:inputType="textEmailAddress"
+
+        />
+
+
+    <com.thriftskool.thriftskool1.widgets.TextViewMyriadProBold
+        android:id="@+id/CreateNewUnivercityScreen_Send"
+        android:layout_marginTop="20dp"
+        android:text="SEND"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/color_white"
+        android:textStyle="bold"
+        android:background="@drawable/postsubmit"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+
+        />
+
+
+
+</LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

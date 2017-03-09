@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical"
+              android:background="@drawable/username"
+    >
+
+    <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:orientation="vertical"
+                  android:gravity="center"
+                  android:padding="10dp"
+                  android:background="@drawable/post"
+                >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/email_loginscreen"
+        />
+
+    <com.thriftskool.thriftskool1.widgets.EditTextMyriadProRegular
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ForgotPassUser_Popup_Email"
+        android:padding="5dp"
+        android:background="@drawable/edittextpass"
+        android:textColor="@color/color_textcolor"
+
+        />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@drawable/post"
+            >
+        <com.thriftskool.thriftskool1.widgets.TextViewMyriadProBold
+            android:id="@+id/ForgotPassUser_Popup_submit"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:textColor="@color/color_white"
+            android:background="@drawable/postsubmit"
+            />
+        </LinearLayout>
+        </LinearLayout>
+
+</LinearLayout>

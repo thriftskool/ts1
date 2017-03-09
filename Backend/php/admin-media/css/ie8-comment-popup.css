@@ -1,0 +1,17 @@
+
+.comment-popup{ position:fixed; bottom:0; right:0;  z-index:99999;}
+.chat-popup-bg{ background:#494f54; padding:3px 3px 1px 3px; z-index:99999; right:0; bottom:0;}
+.chat-popup-bg-main{ background:url(../images/popup-bg.gif) left top repeat-x; color:#363b3f;}
+
+.chat-popup-bg-main .chead{ background:url(../images/chat-popup-bg.jpg) repeat-x; width:100%; height:25px; display:block; cursor:pointer;}
+.chat-popup-bg-main span{color:#fff; font-size:13px; font-weight:bold; margin-top:2px; display:block;}
+.chat-popup-bg-main .close{ background:url(../images/minus-btn.jpg) left top no-repeat; display:none; width:22px; height:21px; position:absolute; top:1px; right:1px;}
+.chat-popup-bg-main .close:hover{ background-position: left -21px;}
+.chat-popup-bg-main .white-bg{display:none;}
+.chat-popup-bg-main .popup-footer{display:none;}
+.disb{display:block !important;}
+.disn{display:none !important;}
+.coment-ico{background:url(../images/coment-bbl.png) no-repeat left top; width:21px; height:19px; display:block;}
+.coment-bbl{background:url(../images/coment-bbl2.png) no-repeat left top; width:279px; height:50px; display:block; z-index:9999; cursor:pointer;}
+.coment-bbl h2{font-size:16px; font-weight:bold;}
+.coment-bbl span{font-size:12px; color:#1C8DC3;}
